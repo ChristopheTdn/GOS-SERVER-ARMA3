@@ -118,14 +118,116 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="royaumeunis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\royaumeunis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="disque_dur_icone_5993_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\disque-dur-icone-5993-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crochet_ok_oui_icone_5594_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\crochet-ok-oui-icone-5594-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Infralution_Localization" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\dll\infralution.localization.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="point_exclamation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\point_exclamation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="la_gestion_pouvoir_preferences_systeme_icone_5042_96" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\la-gestion-pouvoir-preferences-systeme-icone-5042-96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Ace_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\graphx\ace_logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ajouter_vert_plus_icone_9105_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\ajouter-vert-plus-icone-9105-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grece" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\grece.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="russe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\russe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Island_Stone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\island stone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blasonGOSA3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\blasonFSFa3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="france" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\france.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="utilisateur_icone_8690_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\utilisateur-icone-8690-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="teamspeak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\teamspeak.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="winscp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\winscp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hexa_soldier_radio_mini_art" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\hexa_soldier_radio_mini_art.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="list_add_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\list-add-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="disquette" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\disquette.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d7_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\d7.2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="globe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\globe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="profil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\profil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ts3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\ts3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_GOS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\logo-GOS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="italie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\italie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fleche_cycle_actualisez_icone_7641_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\fleche-cycle-actualisez-icone-7641-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hangar_svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\hangar.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ajouterListe" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\graphx\ajouterliste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ajouter_vert_plus_icone_9105_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\ajouter-vert-plus-icone-9105-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="case_divers_icone_9631_96" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\case-divers-icone-9631-96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="point_interrogation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\point_interrogation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mettre_en_favori_favori_etoile_icone_3996_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\mettre-en-favori-favori-etoile-icone-3996-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="solution1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\solution1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="programme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\programme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Small_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\small-logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fermer_gtk_icone_6139_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\fermer-gtk-icone-6139-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="espagne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\espagne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="danger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphx\danger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="allemagne" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\graphx\allemagne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,109 +235,7 @@
   <data name="balle_fermer_cute_stop_icone_4372_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\graphx\balle-fermer-cute-stop-icone-4372-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="blasonGOSA3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\blasonFSFa3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="case_divers_icone_9631_96" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\case-divers-icone-9631-96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="crochet_ok_oui_icone_5594_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\crochet-ok-oui-icone-5594-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="d7_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\d7.2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="danger" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\danger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="disquette" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\disquette.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="disque_dur_icone_5993_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\disque-dur-icone-5993-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="espagne" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\espagne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="fermer_gtk_icone_6139_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\fermer-gtk-icone-6139-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="fleche_cycle_actualisez_icone_7641_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\fleche-cycle-actualisez-icone-7641-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="france" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\france.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GOSLauncherA3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\FSFlaunchera3.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="globe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\globe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="grece" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\grece.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Hangar_svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\hangar.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hexa_soldier_radio_mini_art" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\hexa_soldier_radio_mini_art.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Infralution_Localization" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\dll\infralution.localization.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Island_Stone" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\island stone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="italie" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\italie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="la_gestion_pouvoir_preferences_systeme_icone_5042_96" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\la-gestion-pouvoir-preferences-systeme-icone-5042-96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="list_add_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\list-add-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="logo_GOS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\logo-GOS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mettre_en_favori_favori_etoile_icone_3996_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\mettre-en-favori-favori-etoile-icone-3996-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="point_exclamation" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\point_exclamation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="point_interrogation" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\point_interrogation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="profil" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\profil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="programme" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\programme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="royaumeunis" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\royaumeunis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="russe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\russe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Small_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\small-logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="solution1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\solution1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="teamspeak" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\teamspeak.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ts3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\ts3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="utilisateur_icone_8690_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\utilisateur-icone-8690-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="winscp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\graphx\winscp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="logogoslauncher" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\graphX\logo-goslauncher.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

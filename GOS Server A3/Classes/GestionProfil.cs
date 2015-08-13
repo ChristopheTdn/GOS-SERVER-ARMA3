@@ -497,6 +497,8 @@ namespace GOS_Server_A3.Classes
             text += @"Echo     +                        +" + Environment.NewLine;
             text += @"Echo     +------------------------+" + Environment.NewLine;
             text += @"Echo   Profil : [" + Var.fenetrePrincipale.comboBox4.Text + "] en cours d'execution." + Environment.NewLine;
+            text += @"Echo   Port : " + Var.fenetrePrincipale.textBox15.Text + Environment.NewLine;
+            text += @"Echo   Mods : " + GenereLigneArgument("win") + Environment.NewLine;
             text += Environment.NewLine;
             text += System.IO.Directory.GetDirectoryRoot(repertoireDeTravail).Replace(@"\", "") + Environment.NewLine;
             text += @"CD " + Var.fenetrePrincipale.textBox18.Text + Environment.NewLine;
@@ -883,6 +885,8 @@ static public void GenereHCinitBat(string profil)
             text += @"Echo     +    HEADLESS CLIENT    +" + Environment.NewLine;
             text += @"Echo     +------------------------+" + Environment.NewLine;
             text += @"Echo   Profil : [" + Var.fenetrePrincipale.comboBox4.Text + "] en cours d'execution." + Environment.NewLine;
+            text += @"Echo   Port : "+ Var.fenetrePrincipale.textBox15.Text + Environment.NewLine;
+            text += @"Echo   Mods : " + GenereLigneArgument("win") + Environment.NewLine;
             text += Environment.NewLine;
             text += System.IO.Directory.GetDirectoryRoot(repertoireDeTravail).Replace(@"\", "") + Environment.NewLine;
             text += @"CD " + Var.fenetrePrincipale.textBox18.Text + Environment.NewLine;

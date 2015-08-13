@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // l'ensemble d'attributs suivant. Changez les valeurs de ces attributs pour modifier les informations
 // associées à un assembly.
 [assembly: AssemblyTitle("GOS Server A3")]
-[assembly: AssemblyDescription("Gestionnaire de serverur ARMA 3 par ToF")]
+[assembly: AssemblyDescription("Gestionnaire de serveur ARMA 3 par ToF")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Clan F.S.F")]
+[assembly: AssemblyCompany("Clan GOS")]
 [assembly: AssemblyProduct("GOS Server A3")]
-[assembly: AssemblyCopyright("Copyright ©2013 ToF")]
+[assembly: AssemblyCopyright("Copyright ©2013-2015 ToF")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

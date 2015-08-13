@@ -2644,7 +2644,7 @@
             // pictureBox13
             // 
             resources.ApplyResources(this.pictureBox13, "pictureBox13");
-            this.pictureBox13.Image = global::GOS_Server_A3.Properties.Resources.blasonGOSA3;
+            this.pictureBox13.Image = global::GOS_Server_A3.Properties.Resources.logogoslauncher;
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.TabStop = false;
             // 
@@ -4269,7 +4269,7 @@
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.TabPage TabMODS;
         internal System.Windows.Forms.TabControl tabControl1;
-        internal System.Windows.Forms.TabPage @TEMPLATE;
+        internal System.Windows.Forms.TabPage TEMPLATE;
         internal System.Windows.Forms.GroupBox groupBox14;
         internal System.Windows.Forms.ComboBox comboBox2;
         internal System.Windows.Forms.GroupBox groupBox13;
@@ -4279,27 +4279,27 @@
         internal System.Windows.Forms.Button button13;
         internal System.Windows.Forms.Button button12;
         internal System.Windows.Forms.CheckedListBox checkedListBox7;
-        internal System.Windows.Forms.TabPage @ISLANDS;
+        internal System.Windows.Forms.TabPage ISLANDS;
         internal System.Windows.Forms.PictureBox pictureBox7;
         internal System.Windows.Forms.Button button3;
         internal System.Windows.Forms.Button button2;
         internal System.Windows.Forms.CheckedListBox checkedListBox1;
-        internal System.Windows.Forms.TabPage @UNITS;
+        internal System.Windows.Forms.TabPage UNITS;
         internal System.Windows.Forms.PictureBox pictureBox8;
         internal System.Windows.Forms.Button button4;
         internal System.Windows.Forms.Button button5;
         internal System.Windows.Forms.CheckedListBox checkedListBox2;
-        internal System.Windows.Forms.TabPage @MATERIEL;
+        internal System.Windows.Forms.TabPage MATERIEL;
         internal System.Windows.Forms.PictureBox pictureBox9;
         internal System.Windows.Forms.Button button6;
         internal System.Windows.Forms.Button button7;
         internal System.Windows.Forms.CheckedListBox checkedListBox3;
-        internal System.Windows.Forms.TabPage @CLIENT;
+        internal System.Windows.Forms.TabPage CLIENT;
         internal System.Windows.Forms.PictureBox pictureBox10;
         internal System.Windows.Forms.Button button11;
         internal System.Windows.Forms.Button button10;
         internal System.Windows.Forms.CheckedListBox checkedListBox6;
-        internal System.Windows.Forms.TabPage @TEST;
+        internal System.Windows.Forms.TabPage TEST;
         internal System.Windows.Forms.PictureBox pictureBox11;
         internal System.Windows.Forms.Button button8;
         internal System.Windows.Forms.Button button9;

@@ -17,7 +17,7 @@
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>
     <SccProvider>SAK</SccProvider>
-    <PublishUrl>ftp://www.clan-gign.net/www/FSFServerA3/</PublishUrl>
+    <PublishUrl>ftp://www.clan-gign.net/GOSServerA3/</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -27,15 +27,15 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>http://www.clan-gign.net/FSFServerA3/</InstallUrl>
-    <SupportUrl>http://www.clan-fsf.fr</SupportUrl>
-    <ProductName>FSF Server A3</ProductName>
-    <PublisherName>Clan F.S.F</PublisherName>
-    <SuiteName>FSF Developpement</SuiteName>
+    <InstallUrl>http://www.clan-gign.net/GOSServerA3/</InstallUrl>
+    <SupportUrl>http://www.clan-GOS.fr</SupportUrl>
+    <ProductName>GOS Server A3</ProductName>
+    <PublisherName>Clan GOS</PublisherName>
+    <SuiteName>GOS Developpement</SuiteName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>index.htm</WebPage>
-    <ApplicationRevision>113</ApplicationRevision>
-    <ApplicationVersion>1.70.0422.%2a</ApplicationVersion>
+    <ApplicationRevision>121</ApplicationRevision>
+    <ApplicationVersion>2.00.083.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <ExcludeDeploymentUrl>true</ExcludeDeploymentUrl>
@@ -76,7 +76,7 @@
     <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>FSFLauncherA3.ico</ApplicationIcon>
+    <ApplicationIcon>GOSLauncherA3.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -174,7 +174,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Content Include="FSFLauncherA3.ico" />
+    <Content Include="GOSLauncherA3.ico" />
+    <None Include="graphX\logo-goslauncher.png" />
     <Content Include="rsync\cwrsync.cmd">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
