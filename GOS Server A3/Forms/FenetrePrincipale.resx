@@ -235,9 +235,6 @@ du vote (en %) :</value>
   <data name="&gt;&gt;comboBox_MultipleSaves.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>162, 17</value>
-  </metadata>
   <data name="label95.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -256,8 +253,11 @@ du vote (en %) :</value>
   <data name="label95.Text" xml:space="preserve">
     <value>Multiple Saves</value>
   </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>162, 17</value>
+  </metadata>
   <data name="label95.ToolTip" xml:space="preserve">
-    <value>Diminue les dégâts infligés au joueur et les membres</value>
+    <value>Permet au joueur de creer de multiples sauvegarde dans une mission.</value>
   </data>
   <data name="&gt;&gt;label95.Name" xml:space="preserve">
     <value>label95</value>
@@ -317,7 +317,7 @@ du vote (en %) :</value>
     <value>Auto Report</value>
   </data>
   <data name="label96.ToolTip" xml:space="preserve">
-    <value>Diminue les dégâts infligés au joueur et les membres</value>
+    <value>	Permet la notification automatique des différentes situations par le joueur.</value>
   </data>
   <data name="&gt;&gt;label96.Name" xml:space="preserve">
     <value>label96</value>
@@ -377,7 +377,7 @@ du vote (en %) :</value>
     <value>Map Content</value>
   </data>
   <data name="label97.ToolTip" xml:space="preserve">
-    <value>Diminue les dégâts infligés au joueur et les membres</value>
+    <value>	Affiche les unités amies, les unités ennemies et des mines détectées sur la carte.</value>
   </data>
   <data name="&gt;&gt;label97.Name" xml:space="preserve">
     <value>label97</value>
@@ -470,7 +470,7 @@ du vote (en %) :</value>
     <value>Von ID</value>
   </data>
   <data name="label91.ToolTip" xml:space="preserve">
-    <value>Diminue les dégâts infligés au joueur et les membres</value>
+    <value>Affiche qui parle lors des communications VON</value>
   </data>
   <data name="&gt;&gt;label91.Name" xml:space="preserve">
     <value>label91</value>
@@ -521,7 +521,7 @@ du vote (en %) :</value>
     <value>231, 179</value>
   </data>
   <data name="label92.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 13</value>
+    <value>81, 20</value>
   </data>
   <data name="label92.TabIndex" type="System.Int32, mscorlib">
     <value>145</value>
@@ -530,7 +530,7 @@ du vote (en %) :</value>
     <value>Death Message</value>
   </data>
   <data name="label92.ToolTip" xml:space="preserve">
-    <value>Diminue les dégâts infligés au joueur et les membres</value>
+    <value>Annonce les décés et le score global en Multijoueur.</value>
   </data>
   <data name="&gt;&gt;label92.Name" xml:space="preserve">
     <value>label92</value>
@@ -590,7 +590,7 @@ du vote (en %) :</value>
     <value>Score Table</value>
   </data>
   <data name="label93.ToolTip" xml:space="preserve">
-    <value>Diminue les dégâts infligés au joueur et les membres</value>
+    <value>Affiche le tableau des scores.</value>
   </data>
   <data name="&gt;&gt;label93.Name" xml:space="preserve">
     <value>label93</value>
@@ -683,7 +683,9 @@ du vote (en %) :</value>
     <value>Camera Shake</value>
   </data>
   <data name="label88.ToolTip" xml:space="preserve">
-    <value>Diminue les dégâts infligés au joueur et les membres</value>
+    <value>Ajoute un tremblement de la caméra quand le joueur est proche
+d'une explosion ou a côté d"un véhicule lourd en mouvement ou
+encore soumis a la gravité (G-Force).</value>
   </data>
   <data name="&gt;&gt;label88.Name" xml:space="preserve">
     <value>label88</value>
@@ -743,7 +745,7 @@ du vote (en %) :</value>
     <value>third Person View</value>
   </data>
   <data name="label89.ToolTip" xml:space="preserve">
-    <value>Diminue les dégâts infligés au joueur et les membres</value>
+    <value>Affichage de la vue a la 3° personne</value>
   </data>
   <data name="&gt;&gt;label89.Name" xml:space="preserve">
     <value>label89</value>
@@ -803,7 +805,7 @@ du vote (en %) :</value>
     <value>Vision Aid</value>
   </data>
   <data name="label64.ToolTip" xml:space="preserve">
-    <value>Diminue les dégâts infligés au joueur et les membres</value>
+    <value>Aide à détecter les unités à portée de vue et d'identifier les amis des ennemis.</value>
   </data>
   <data name="&gt;&gt;label64.Name" xml:space="preserve">
     <value>label64</value>
@@ -831,6 +833,9 @@ du vote (en %) :</value>
   </data>
   <data name="comboBox_WeaponCrosshair.TabIndex" type="System.Int32, mscorlib">
     <value>135</value>
+  </data>
+  <data name="comboBox_WeaponCrosshair.ToolTip" xml:space="preserve">
+    <value>Affiche le reticule de l'arme (En vue 1ere et 3ieme personne)</value>
   </data>
   <data name="&gt;&gt;comboBox_WeaponCrosshair.Name" xml:space="preserve">
     <value>comboBox_WeaponCrosshair</value>
@@ -863,7 +868,7 @@ du vote (en %) :</value>
     <value>Weapon Crosshair</value>
   </data>
   <data name="label65.ToolTip" xml:space="preserve">
-    <value>Diminue les dégâts infligés au joueur et les membres</value>
+    <value>Affiche le reticule de l'arme (En vue 1ere et 3ieme personne)</value>
   </data>
   <data name="&gt;&gt;label65.Name" xml:space="preserve">
     <value>label65</value>
@@ -956,7 +961,7 @@ du vote (en %) :</value>
     <value>Stamina Bar</value>
   </data>
   <data name="label67.ToolTip" xml:space="preserve">
-    <value>Diminue les dégâts infligés au joueur et les membres</value>
+    <value>Gère l'affichage de l indicateur d'endurance.</value>
   </data>
   <data name="&gt;&gt;label67.Name" xml:space="preserve">
     <value>label67</value>
@@ -1019,7 +1024,7 @@ du vote (en %) :</value>
     <value>Stance Indicator</value>
   </data>
   <data name="label68.ToolTip" xml:space="preserve">
-    <value>Diminue les dégâts infligés au joueur et les membres</value>
+    <value>Affiche les info de positionnement du joueur et de son arme.</value>
   </data>
   <data name="&gt;&gt;label68.Name" xml:space="preserve">
     <value>label68</value>
@@ -1082,7 +1087,8 @@ du vote (en %) :</value>
     <value>Weapon Info</value>
   </data>
   <data name="label69.ToolTip" xml:space="preserve">
-    <value>Diminue les dégâts infligés au joueur et les membres</value>
+    <value>Affiche la case d'info Armement, chargeurs, mode de tir...
+</value>
   </data>
   <data name="&gt;&gt;label69.Name" xml:space="preserve">
     <value>label69</value>
@@ -1145,7 +1151,7 @@ du vote (en %) :</value>
     <value>Waypoints</value>
   </data>
   <data name="label42.ToolTip" xml:space="preserve">
-    <value>Diminue les dégâts infligés au joueur et les membres</value>
+    <value>Gère l' affichage des marqueurs type waypoints.</value>
   </data>
   <data name="&gt;&gt;label42.Name" xml:space="preserve">
     <value>label42</value>
@@ -1208,7 +1214,8 @@ du vote (en %) :</value>
     <value>Commands</value>
   </data>
   <data name="label44.ToolTip" xml:space="preserve">
-    <value>Diminue les dégâts infligés au joueur et les membres</value>
+    <value>Affiche Les icônes de commandement tel que "marqueurs cibles", 
+"Rejoindre.." etc....</value>
   </data>
   <data name="&gt;&gt;label44.Name" xml:space="preserve">
     <value>label44</value>
@@ -1271,7 +1278,8 @@ du vote (en %) :</value>
     <value>Detected Mines</value>
   </data>
   <data name="label51.ToolTip" xml:space="preserve">
-    <value>Diminue les dégâts infligés au joueur et les membres</value>
+    <value>Affiche des icônes indiquant les positions exactes des mines.
+ montrer = afficher les indicateurs sur les mines à 200m et plus proche.</value>
   </data>
   <data name="&gt;&gt;label51.Name" xml:space="preserve">
     <value>label51</value>
@@ -1400,7 +1408,7 @@ du vote (en %) :</value>
     <value>Enemy Tags</value>
   </data>
   <data name="label30.ToolTip" xml:space="preserve">
-    <value>Diminue les dégâts infligés au joueur et les membres</value>
+    <value>identification des unités Ennemies. Fonctionne uniquement lorsque le joueur vise une unité.</value>
   </data>
   <data name="&gt;&gt;label30.Name" xml:space="preserve">
     <value>label30</value>
@@ -1463,7 +1471,7 @@ du vote (en %) :</value>
     <value>Friendly Tags</value>
   </data>
   <data name="label29.ToolTip" xml:space="preserve">
-    <value>Diminue les dégâts infligés au joueur et les membres</value>
+    <value>identification des Unités Alliées. Fonctionne uniquement lorsque le joueur vise une unité.</value>
   </data>
   <data name="&gt;&gt;label29.Name" xml:space="preserve">
     <value>label29</value>
@@ -1526,7 +1534,7 @@ du vote (en %) :</value>
     <value>Group Indicator</value>
   </data>
   <data name="label_GroupIndicator.ToolTip" xml:space="preserve">
-    <value>Diminue les dégâts infligés au joueur et les membres</value>
+    <value>Affiche les icônes d'indication sur les unités dans le groupe de joueur.</value>
   </data>
   <data name="&gt;&gt;label_GroupIndicator.Name" xml:space="preserve">
     <value>label_GroupIndicator</value>
@@ -1586,7 +1594,8 @@ du vote (en %) :</value>
     <value>Reduced Damage</value>
   </data>
   <data name="label_ReducedDamage.ToolTip" xml:space="preserve">
-    <value>Diminue les dégâts infligés au joueur et les membres</value>
+    <value>Diminue les dégâts infligés au joueur
+et les membres de son groupe.</value>
   </data>
   <data name="&gt;&gt;label_ReducedDamage.Name" xml:space="preserve">
     <value>label_ReducedDamage</value>
@@ -2824,9 +2833,6 @@ du vote (en %) :</value>
   <data name="&gt;&gt;button25.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>162, 17</value>
-  </metadata>
   <data name="checkBox21.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -7647,7 +7653,7 @@ Brainbug, Alpha-Kilo</value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADe
-        FAAAAk1TRnQBSQFMAgEBCwEAAcQBAwHEAQMBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        FAAAAk1TRnQBSQFMAgEBCwEAAcwBAwHMAQMBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
         AwABQAMAATADAAEBAQABCAYAAQwYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
         AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
         AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA

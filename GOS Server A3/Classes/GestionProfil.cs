@@ -298,11 +298,30 @@ namespace GOS_Server_A3.Classes
             Var.fenetrePrincipale.numericUpDown2.Value = 10;
 
             // onglet difficultés            
-            
-            // Veteran
 
+            // Veteran
+            Var.fenetrePrincipale.comboBox_ReducedDamage.SelectedIndex = 0;
+            Var.fenetrePrincipale.comboBox_GroupIndicator.SelectedIndex = 0;
+            Var.fenetrePrincipale.comboBox_FriendlyTags.SelectedIndex = 0;
+            Var.fenetrePrincipale.comboBox_EnemyTags.SelectedIndex = 0;
+            Var.fenetrePrincipale.comboBox_DetectedMines.SelectedIndex = 0;
+            Var.fenetrePrincipale.comboBox_Commands.SelectedIndex = 0;
+            Var.fenetrePrincipale.comboBox_Waypoints.SelectedIndex = 0;
+            Var.fenetrePrincipale.comboBox_ThirdPersonView.SelectedIndex = 1;
+            Var.fenetrePrincipale.comboBox_CameraShake.SelectedIndex = 1;
+            Var.fenetrePrincipale.comboBox_WeaponInfo.SelectedIndex = 1;
+            Var.fenetrePrincipale.comboBox_StanceIndicator.SelectedIndex = 2;
+            Var.fenetrePrincipale.comboBox_StaminaBar.SelectedIndex = 1;
+            Var.fenetrePrincipale.comboBox_WeaponCrosshair.SelectedIndex = 0;
+            Var.fenetrePrincipale.comboBox_VisionAid.SelectedIndex = 0;
+            Var.fenetrePrincipale.comboBox_ScoreTable.SelectedIndex = 1;
+            Var.fenetrePrincipale.comboBox_DeathMessage.SelectedIndex = 1;
+            Var.fenetrePrincipale.comboBox_VonID.SelectedIndex = 1;
+            Var.fenetrePrincipale.comboBox_MapContent.SelectedIndex = 1;
+            Var.fenetrePrincipale.comboBox_AutoReport.SelectedIndex = 1;
+            Var.fenetrePrincipale.comboBox_MultipleSaves.SelectedIndex = 1;
   
-            Var.fenetrePrincipale.comboBox_AILevelPresetVETERAN.SelectedIndex = 2;
+            Var.fenetrePrincipale.comboBox_AILevelPresetVETERAN.SelectedIndex = 3;
 
             
             // NetWork

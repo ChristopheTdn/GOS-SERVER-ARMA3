@@ -565,20 +565,20 @@ namespace GOS_Server_A3
                 case 0:
                     Var.fenetrePrincipale.numericUpDown_SkillAIVETERAN.Value = 0.50M;
                     Var.fenetrePrincipale.numericUpDown_PrecisionAIVETERAN.Value = 0.20M;
-                    Var.fenetrePrincipale.numericUpDown_SkillAIVETERAN.Enabled = false;
-                    Var.fenetrePrincipale.numericUpDown_PrecisionAIVETERAN.Enabled = false;
+                    Var.fenetrePrincipale.numericUpDown_SkillAIVETERAN.Enabled = true;
+                    Var.fenetrePrincipale.numericUpDown_PrecisionAIVETERAN.Enabled = true;
                     break;
                 case 1:
                     Var.fenetrePrincipale.numericUpDown_SkillAIVETERAN.Value = 0.70M;
                     Var.fenetrePrincipale.numericUpDown_PrecisionAIVETERAN.Value = 0.50M;
-                    Var.fenetrePrincipale.numericUpDown_SkillAIVETERAN.Enabled = false;
-                    Var.fenetrePrincipale.numericUpDown_PrecisionAIVETERAN.Enabled = false;
+                    Var.fenetrePrincipale.numericUpDown_SkillAIVETERAN.Enabled = true;
+                    Var.fenetrePrincipale.numericUpDown_PrecisionAIVETERAN.Enabled = true;
                     break;
                 case 2:
                     Var.fenetrePrincipale.numericUpDown_SkillAIVETERAN.Value = 0.8M;
                     Var.fenetrePrincipale.numericUpDown_PrecisionAIVETERAN.Value = 0.70M;
-                    Var.fenetrePrincipale.numericUpDown_SkillAIVETERAN.Enabled = false;
-                    Var.fenetrePrincipale.numericUpDown_PrecisionAIVETERAN.Enabled = false;
+                    Var.fenetrePrincipale.numericUpDown_SkillAIVETERAN.Enabled = true;
+                    Var.fenetrePrincipale.numericUpDown_PrecisionAIVETERAN.Enabled = true;
                     break;
                 case 3:
                     Var.fenetrePrincipale.numericUpDown_SkillAIVETERAN.Enabled = true;

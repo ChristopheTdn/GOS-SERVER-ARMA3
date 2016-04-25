@@ -633,6 +633,7 @@
             resources.ApplyResources(this.label92, "label92");
             this.label92.Name = "label92";
             this.toolTip1.SetToolTip(this.label92, resources.GetString("label92.ToolTip"));
+            this.label92.UseCompatibleTextRendering = true;
             // 
             // comboBox_ScoreTable
             // 
@@ -707,6 +708,7 @@
             resources.GetString("comboBox_WeaponCrosshair.Items1")});
             resources.ApplyResources(this.comboBox_WeaponCrosshair, "comboBox_WeaponCrosshair");
             this.comboBox_WeaponCrosshair.Name = "comboBox_WeaponCrosshair";
+            this.toolTip1.SetToolTip(this.comboBox_WeaponCrosshair, resources.GetString("comboBox_WeaponCrosshair.ToolTip"));
             // 
             // label65
             // 
