@@ -34,8 +34,8 @@
     <SuiteName>GOS Developpement</SuiteName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>index.htm</WebPage>
-    <ApplicationRevision>121</ApplicationRevision>
-    <ApplicationVersion>2.00.083.%2a</ApplicationVersion>
+    <ApplicationRevision>124</ApplicationRevision>
+    <ApplicationVersion>2.05.0424.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <ExcludeDeploymentUrl>true</ExcludeDeploymentUrl>

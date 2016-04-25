@@ -30,130 +30,63 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FenetrePrincipale));
-            this.checkBox89 = new System.Windows.Forms.CheckBox();
-            this.groupBox_regular = new System.Windows.Forms.GroupBox();
-            this.label44 = new System.Windows.Forms.Label();
-            this.numericUpDown_PrecisionAIREGULAR = new System.Windows.Forms.NumericUpDown();
-            this.label61 = new System.Windows.Forms.Label();
-            this.numericUpDown_SkillAIREGULAR = new System.Windows.Forms.NumericUpDown();
-            this.comboBox_AILevelPresetREGULAR = new System.Windows.Forms.ComboBox();
-            this.label62 = new System.Windows.Forms.Label();
-            this.checkBox50 = new System.Windows.Forms.CheckBox();
-            this.checkBox51 = new System.Windows.Forms.CheckBox();
-            this.checkBox52 = new System.Windows.Forms.CheckBox();
-            this.checkBox53 = new System.Windows.Forms.CheckBox();
-            this.checkBox54 = new System.Windows.Forms.CheckBox();
-            this.checkBox55 = new System.Windows.Forms.CheckBox();
-            this.checkBox56 = new System.Windows.Forms.CheckBox();
-            this.checkBox57 = new System.Windows.Forms.CheckBox();
-            this.checkBox58 = new System.Windows.Forms.CheckBox();
-            this.checkBox59 = new System.Windows.Forms.CheckBox();
-            this.checkBox60 = new System.Windows.Forms.CheckBox();
-            this.checkBox61 = new System.Windows.Forms.CheckBox();
-            this.checkBox62 = new System.Windows.Forms.CheckBox();
-            this.checkBox63 = new System.Windows.Forms.CheckBox();
-            this.checkBox64 = new System.Windows.Forms.CheckBox();
-            this.checkBox65 = new System.Windows.Forms.CheckBox();
-            this.checkBox66 = new System.Windows.Forms.CheckBox();
-            this.checkBox67 = new System.Windows.Forms.CheckBox();
-            this.checkBox68 = new System.Windows.Forms.CheckBox();
-            this.checkBox69 = new System.Windows.Forms.CheckBox();
-            this.checkBox70 = new System.Windows.Forms.CheckBox();
-            this.checkBox71 = new System.Windows.Forms.CheckBox();
-            this.groupBox_recruit = new System.Windows.Forms.GroupBox();
-            this.label89 = new System.Windows.Forms.Label();
-            this.numericUpDown_PrecisionAIRECRUIT = new System.Windows.Forms.NumericUpDown();
-            this.label88 = new System.Windows.Forms.Label();
-            this.numericUpDown_SkillAIRECRUIT = new System.Windows.Forms.NumericUpDown();
-            this.comboBox_AILevelPresetRECRUIT = new System.Windows.Forms.ComboBox();
-            this.label51 = new System.Windows.Forms.Label();
-            this.checkBox49 = new System.Windows.Forms.CheckBox();
-            this.checkBox48 = new System.Windows.Forms.CheckBox();
-            this.checkBox47 = new System.Windows.Forms.CheckBox();
-            this.checkBox46 = new System.Windows.Forms.CheckBox();
-            this.checkBox45 = new System.Windows.Forms.CheckBox();
-            this.checkBox44 = new System.Windows.Forms.CheckBox();
-            this.checkBox43 = new System.Windows.Forms.CheckBox();
-            this.checkBox42 = new System.Windows.Forms.CheckBox();
-            this.checkBox41 = new System.Windows.Forms.CheckBox();
-            this.checkBox40 = new System.Windows.Forms.CheckBox();
-            this.checkBox39 = new System.Windows.Forms.CheckBox();
-            this.checkBox38 = new System.Windows.Forms.CheckBox();
-            this.checkBox37 = new System.Windows.Forms.CheckBox();
-            this.checkBox34 = new System.Windows.Forms.CheckBox();
-            this.checkBox35 = new System.Windows.Forms.CheckBox();
-            this.checkBox36 = new System.Windows.Forms.CheckBox();
-            this.checkBox31 = new System.Windows.Forms.CheckBox();
-            this.checkBox32 = new System.Windows.Forms.CheckBox();
-            this.checkBox33 = new System.Windows.Forms.CheckBox();
-            this.checkBox30 = new System.Windows.Forms.CheckBox();
-            this.checkBox29 = new System.Windows.Forms.CheckBox();
-            this.checkBox28 = new System.Windows.Forms.CheckBox();
             this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
-            this.checkBox75 = new System.Windows.Forms.CheckBox();
-            this.checkBox76 = new System.Windows.Forms.CheckBox();
-            this.checkBox77 = new System.Windows.Forms.CheckBox();
-            this.checkBox78 = new System.Windows.Forms.CheckBox();
-            this.checkBox79 = new System.Windows.Forms.CheckBox();
-            this.checkBox80 = new System.Windows.Forms.CheckBox();
-            this.checkBox81 = new System.Windows.Forms.CheckBox();
-            this.checkBox82 = new System.Windows.Forms.CheckBox();
             this.label27 = new System.Windows.Forms.Label();
             this.difficulte = new System.Windows.Forms.TabPage();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.radioButton10 = new System.Windows.Forms.RadioButton();
-            this.radioButton9 = new System.Windows.Forms.RadioButton();
-            this.radioButton8 = new System.Windows.Forms.RadioButton();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.groupBox_mercenary = new System.Windows.Forms.GroupBox();
-            this.label29 = new System.Windows.Forms.Label();
-            this.numericUpDown_PrecisionAIMERCENARY = new System.Windows.Forms.NumericUpDown();
-            this.label30 = new System.Windows.Forms.Label();
-            this.numericUpDown_SkillAIMERCENARY = new System.Windows.Forms.NumericUpDown();
-            this.comboBox_AILevelPresetMERCENARY = new System.Windows.Forms.ComboBox();
+            this.groupBox_Custom = new System.Windows.Forms.GroupBox();
+            this.label94 = new System.Windows.Forms.Label();
+            this.comboBox_MultipleSaves = new System.Windows.Forms.ComboBox();
+            this.label95 = new System.Windows.Forms.Label();
+            this.comboBox_AutoReport = new System.Windows.Forms.ComboBox();
+            this.label96 = new System.Windows.Forms.Label();
+            this.comboBox_MapContent = new System.Windows.Forms.ComboBox();
+            this.label97 = new System.Windows.Forms.Label();
+            this.label90 = new System.Windows.Forms.Label();
+            this.comboBox_VonID = new System.Windows.Forms.ComboBox();
+            this.label91 = new System.Windows.Forms.Label();
+            this.comboBox_DeathMessage = new System.Windows.Forms.ComboBox();
+            this.label92 = new System.Windows.Forms.Label();
+            this.comboBox_ScoreTable = new System.Windows.Forms.ComboBox();
+            this.label93 = new System.Windows.Forms.Label();
+            this.label86 = new System.Windows.Forms.Label();
+            this.comboBox_CameraShake = new System.Windows.Forms.ComboBox();
+            this.label88 = new System.Windows.Forms.Label();
+            this.comboBox_ThirdPersonView = new System.Windows.Forms.ComboBox();
+            this.label89 = new System.Windows.Forms.Label();
+            this.comboBox_VisionAid = new System.Windows.Forms.ComboBox();
+            this.label64 = new System.Windows.Forms.Label();
+            this.comboBox_WeaponCrosshair = new System.Windows.Forms.ComboBox();
+            this.label65 = new System.Windows.Forms.Label();
+            this.label66 = new System.Windows.Forms.Label();
+            this.comboBox_StaminaBar = new System.Windows.Forms.ComboBox();
+            this.label67 = new System.Windows.Forms.Label();
+            this.comboBox_StanceIndicator = new System.Windows.Forms.ComboBox();
+            this.label68 = new System.Windows.Forms.Label();
+            this.comboBox_WeaponInfo = new System.Windows.Forms.ComboBox();
+            this.label69 = new System.Windows.Forms.Label();
+            this.comboBox_Waypoints = new System.Windows.Forms.ComboBox();
             this.label42 = new System.Windows.Forms.Label();
-            this.checkBox72 = new System.Windows.Forms.CheckBox();
-            this.checkBox73 = new System.Windows.Forms.CheckBox();
-            this.checkBox74 = new System.Windows.Forms.CheckBox();
-            this.checkBox83 = new System.Windows.Forms.CheckBox();
-            this.checkBox84 = new System.Windows.Forms.CheckBox();
-            this.checkBox85 = new System.Windows.Forms.CheckBox();
-            this.checkBox86 = new System.Windows.Forms.CheckBox();
-            this.checkBox87 = new System.Windows.Forms.CheckBox();
-            this.checkBox88 = new System.Windows.Forms.CheckBox();
-            this.checkBox90 = new System.Windows.Forms.CheckBox();
-            this.checkBox91 = new System.Windows.Forms.CheckBox();
-            this.checkBox92 = new System.Windows.Forms.CheckBox();
-            this.checkBox93 = new System.Windows.Forms.CheckBox();
-            this.groupBox_veteran = new System.Windows.Forms.GroupBox();
+            this.comboBox_Commands = new System.Windows.Forms.ComboBox();
+            this.label44 = new System.Windows.Forms.Label();
+            this.comboBox_DetectedMines = new System.Windows.Forms.ComboBox();
+            this.label51 = new System.Windows.Forms.Label();
+            this.label62 = new System.Windows.Forms.Label();
+            this.label61 = new System.Windows.Forms.Label();
+            this.comboBox_EnemyTags = new System.Windows.Forms.ComboBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.comboBox_FriendlyTags = new System.Windows.Forms.ComboBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.comboBox_GroupIndicator = new System.Windows.Forms.ComboBox();
+            this.label_GroupIndicator = new System.Windows.Forms.Label();
+            this.comboBox_ReducedDamage = new System.Windows.Forms.ComboBox();
+            this.label_ReducedDamage = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
             this.numericUpDown_PrecisionAIVETERAN = new System.Windows.Forms.NumericUpDown();
             this.label39 = new System.Windows.Forms.Label();
             this.numericUpDown_SkillAIVETERAN = new System.Windows.Forms.NumericUpDown();
             this.comboBox_AILevelPresetVETERAN = new System.Windows.Forms.ComboBox();
             this.label40 = new System.Windows.Forms.Label();
-            this.checkBox94 = new System.Windows.Forms.CheckBox();
-            this.checkBox95 = new System.Windows.Forms.CheckBox();
-            this.checkBox96 = new System.Windows.Forms.CheckBox();
-            this.checkBox97 = new System.Windows.Forms.CheckBox();
-            this.checkBox98 = new System.Windows.Forms.CheckBox();
-            this.checkBox99 = new System.Windows.Forms.CheckBox();
-            this.checkBox100 = new System.Windows.Forms.CheckBox();
-            this.checkBox101 = new System.Windows.Forms.CheckBox();
-            this.checkBox102 = new System.Windows.Forms.CheckBox();
-            this.checkBox103 = new System.Windows.Forms.CheckBox();
-            this.checkBox104 = new System.Windows.Forms.CheckBox();
-            this.checkBox105 = new System.Windows.Forms.CheckBox();
-            this.checkBox106 = new System.Windows.Forms.CheckBox();
-            this.checkBox107 = new System.Windows.Forms.CheckBox();
-            this.checkBox108 = new System.Windows.Forms.CheckBox();
-            this.checkBox109 = new System.Windows.Forms.CheckBox();
-            this.checkBox110 = new System.Windows.Forms.CheckBox();
-            this.checkBox111 = new System.Windows.Forms.CheckBox();
-            this.checkBox112 = new System.Windows.Forms.CheckBox();
-            this.checkBox113 = new System.Windows.Forms.CheckBox();
-            this.checkBox114 = new System.Windows.Forms.CheckBox();
-            this.checkBox115 = new System.Windows.Forms.CheckBox();
             this.label57 = new System.Windows.Forms.Label();
             this.label56 = new System.Windows.Forms.Label();
             this.label55 = new System.Windows.Forms.Label();
@@ -442,19 +375,10 @@
             this.label4 = new System.Windows.Forms.Label();
             this.cultureManager1 = new Infralution.Localization.CultureManager(this.components);
             this.imageList2 = new System.Windows.Forms.ImageList(this.components);
-            this.groupBox_regular.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_PrecisionAIREGULAR)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_SkillAIREGULAR)).BeginInit();
-            this.groupBox_recruit.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_PrecisionAIRECRUIT)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_SkillAIRECRUIT)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
             this.difficulte.SuspendLayout();
             this.groupBox5.SuspendLayout();
-            this.groupBox_mercenary.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_PrecisionAIMERCENARY)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_SkillAIMERCENARY)).BeginInit();
-            this.groupBox_veteran.SuspendLayout();
+            this.groupBox_Custom.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_PrecisionAIVETERAN)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_SkillAIVETERAN)).BeginInit();
             this.groupBox12.SuspendLayout();
@@ -532,560 +456,6 @@
             this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
-            // checkBox89
-            // 
-            resources.ApplyResources(this.checkBox89, "checkBox89");
-            this.checkBox89.Checked = true;
-            this.checkBox89.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox89.Name = "checkBox89";
-            this.checkBox89.UseVisualStyleBackColor = true;
-            // 
-            // groupBox_regular
-            // 
-            this.groupBox_regular.Controls.Add(this.label44);
-            this.groupBox_regular.Controls.Add(this.numericUpDown_PrecisionAIREGULAR);
-            this.groupBox_regular.Controls.Add(this.label61);
-            this.groupBox_regular.Controls.Add(this.numericUpDown_SkillAIREGULAR);
-            this.groupBox_regular.Controls.Add(this.comboBox_AILevelPresetREGULAR);
-            this.groupBox_regular.Controls.Add(this.label62);
-            this.groupBox_regular.Controls.Add(this.checkBox50);
-            this.groupBox_regular.Controls.Add(this.checkBox51);
-            this.groupBox_regular.Controls.Add(this.checkBox52);
-            this.groupBox_regular.Controls.Add(this.checkBox53);
-            this.groupBox_regular.Controls.Add(this.checkBox54);
-            this.groupBox_regular.Controls.Add(this.checkBox55);
-            this.groupBox_regular.Controls.Add(this.checkBox56);
-            this.groupBox_regular.Controls.Add(this.checkBox57);
-            this.groupBox_regular.Controls.Add(this.checkBox58);
-            this.groupBox_regular.Controls.Add(this.checkBox59);
-            this.groupBox_regular.Controls.Add(this.checkBox60);
-            this.groupBox_regular.Controls.Add(this.checkBox61);
-            this.groupBox_regular.Controls.Add(this.checkBox62);
-            this.groupBox_regular.Controls.Add(this.checkBox63);
-            this.groupBox_regular.Controls.Add(this.checkBox64);
-            this.groupBox_regular.Controls.Add(this.checkBox65);
-            this.groupBox_regular.Controls.Add(this.checkBox66);
-            this.groupBox_regular.Controls.Add(this.checkBox67);
-            this.groupBox_regular.Controls.Add(this.checkBox68);
-            this.groupBox_regular.Controls.Add(this.checkBox69);
-            this.groupBox_regular.Controls.Add(this.checkBox70);
-            this.groupBox_regular.Controls.Add(this.checkBox71);
-            resources.ApplyResources(this.groupBox_regular, "groupBox_regular");
-            this.groupBox_regular.Name = "groupBox_regular";
-            this.groupBox_regular.TabStop = false;
-            // 
-            // label44
-            // 
-            resources.ApplyResources(this.label44, "label44");
-            this.label44.Name = "label44";
-            // 
-            // numericUpDown_PrecisionAIREGULAR
-            // 
-            this.numericUpDown_PrecisionAIREGULAR.DecimalPlaces = 2;
-            this.numericUpDown_PrecisionAIREGULAR.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            131072});
-            resources.ApplyResources(this.numericUpDown_PrecisionAIREGULAR, "numericUpDown_PrecisionAIREGULAR");
-            this.numericUpDown_PrecisionAIREGULAR.Maximum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown_PrecisionAIREGULAR.Name = "numericUpDown_PrecisionAIREGULAR";
-            this.numericUpDown_PrecisionAIREGULAR.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // label61
-            // 
-            resources.ApplyResources(this.label61, "label61");
-            this.label61.Name = "label61";
-            // 
-            // numericUpDown_SkillAIREGULAR
-            // 
-            this.numericUpDown_SkillAIREGULAR.DecimalPlaces = 2;
-            this.numericUpDown_SkillAIREGULAR.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            131072});
-            resources.ApplyResources(this.numericUpDown_SkillAIREGULAR, "numericUpDown_SkillAIREGULAR");
-            this.numericUpDown_SkillAIREGULAR.Maximum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown_SkillAIREGULAR.Name = "numericUpDown_SkillAIREGULAR";
-            this.numericUpDown_SkillAIREGULAR.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // comboBox_AILevelPresetREGULAR
-            // 
-            this.comboBox_AILevelPresetREGULAR.FormattingEnabled = true;
-            this.comboBox_AILevelPresetREGULAR.Items.AddRange(new object[] {
-            resources.GetString("comboBox_AILevelPresetREGULAR.Items"),
-            resources.GetString("comboBox_AILevelPresetREGULAR.Items1"),
-            resources.GetString("comboBox_AILevelPresetREGULAR.Items2"),
-            resources.GetString("comboBox_AILevelPresetREGULAR.Items3")});
-            resources.ApplyResources(this.comboBox_AILevelPresetREGULAR, "comboBox_AILevelPresetREGULAR");
-            this.comboBox_AILevelPresetREGULAR.Name = "comboBox_AILevelPresetREGULAR";
-            this.comboBox_AILevelPresetREGULAR.SelectedIndexChanged += new System.EventHandler(this.comboBox_AILevelPresetREGULAR_SelectedIndexChanged);
-            // 
-            // label62
-            // 
-            resources.ApplyResources(this.label62, "label62");
-            this.label62.Name = "label62";
-            // 
-            // checkBox50
-            // 
-            resources.ApplyResources(this.checkBox50, "checkBox50");
-            this.checkBox50.Checked = true;
-            this.checkBox50.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox50.Name = "checkBox50";
-            this.checkBox50.UseVisualStyleBackColor = true;
-            // 
-            // checkBox51
-            // 
-            resources.ApplyResources(this.checkBox51, "checkBox51");
-            this.checkBox51.Checked = true;
-            this.checkBox51.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox51.Name = "checkBox51";
-            this.checkBox51.UseVisualStyleBackColor = true;
-            // 
-            // checkBox52
-            // 
-            resources.ApplyResources(this.checkBox52, "checkBox52");
-            this.checkBox52.Checked = true;
-            this.checkBox52.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox52.Name = "checkBox52";
-            this.checkBox52.UseVisualStyleBackColor = true;
-            // 
-            // checkBox53
-            // 
-            resources.ApplyResources(this.checkBox53, "checkBox53");
-            this.checkBox53.Checked = true;
-            this.checkBox53.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox53.Name = "checkBox53";
-            this.checkBox53.UseVisualStyleBackColor = true;
-            // 
-            // checkBox54
-            // 
-            resources.ApplyResources(this.checkBox54, "checkBox54");
-            this.checkBox54.Name = "checkBox54";
-            this.checkBox54.UseVisualStyleBackColor = true;
-            // 
-            // checkBox55
-            // 
-            resources.ApplyResources(this.checkBox55, "checkBox55");
-            this.checkBox55.Checked = true;
-            this.checkBox55.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox55.Name = "checkBox55";
-            this.checkBox55.UseVisualStyleBackColor = true;
-            // 
-            // checkBox56
-            // 
-            resources.ApplyResources(this.checkBox56, "checkBox56");
-            this.checkBox56.Name = "checkBox56";
-            this.checkBox56.UseVisualStyleBackColor = true;
-            // 
-            // checkBox57
-            // 
-            resources.ApplyResources(this.checkBox57, "checkBox57");
-            this.checkBox57.Checked = true;
-            this.checkBox57.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox57.Name = "checkBox57";
-            this.checkBox57.UseVisualStyleBackColor = true;
-            // 
-            // checkBox58
-            // 
-            resources.ApplyResources(this.checkBox58, "checkBox58");
-            this.checkBox58.Checked = true;
-            this.checkBox58.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox58.Name = "checkBox58";
-            this.checkBox58.UseVisualStyleBackColor = true;
-            // 
-            // checkBox59
-            // 
-            resources.ApplyResources(this.checkBox59, "checkBox59");
-            this.checkBox59.Checked = true;
-            this.checkBox59.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox59.Name = "checkBox59";
-            this.checkBox59.UseVisualStyleBackColor = true;
-            // 
-            // checkBox60
-            // 
-            resources.ApplyResources(this.checkBox60, "checkBox60");
-            this.checkBox60.Checked = true;
-            this.checkBox60.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox60.Name = "checkBox60";
-            this.checkBox60.UseVisualStyleBackColor = true;
-            // 
-            // checkBox61
-            // 
-            resources.ApplyResources(this.checkBox61, "checkBox61");
-            this.checkBox61.Checked = true;
-            this.checkBox61.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox61.Name = "checkBox61";
-            this.checkBox61.UseVisualStyleBackColor = true;
-            // 
-            // checkBox62
-            // 
-            resources.ApplyResources(this.checkBox62, "checkBox62");
-            this.checkBox62.Checked = true;
-            this.checkBox62.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox62.Name = "checkBox62";
-            this.checkBox62.UseVisualStyleBackColor = true;
-            // 
-            // checkBox63
-            // 
-            resources.ApplyResources(this.checkBox63, "checkBox63");
-            this.checkBox63.Checked = true;
-            this.checkBox63.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox63.Name = "checkBox63";
-            this.checkBox63.UseVisualStyleBackColor = true;
-            // 
-            // checkBox64
-            // 
-            resources.ApplyResources(this.checkBox64, "checkBox64");
-            this.checkBox64.Checked = true;
-            this.checkBox64.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox64.Name = "checkBox64";
-            this.checkBox64.UseVisualStyleBackColor = true;
-            // 
-            // checkBox65
-            // 
-            resources.ApplyResources(this.checkBox65, "checkBox65");
-            this.checkBox65.Checked = true;
-            this.checkBox65.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox65.Name = "checkBox65";
-            this.checkBox65.UseVisualStyleBackColor = true;
-            // 
-            // checkBox66
-            // 
-            resources.ApplyResources(this.checkBox66, "checkBox66");
-            this.checkBox66.Checked = true;
-            this.checkBox66.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox66.Name = "checkBox66";
-            this.checkBox66.UseVisualStyleBackColor = true;
-            // 
-            // checkBox67
-            // 
-            resources.ApplyResources(this.checkBox67, "checkBox67");
-            this.checkBox67.Checked = true;
-            this.checkBox67.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox67.Name = "checkBox67";
-            this.checkBox67.UseVisualStyleBackColor = true;
-            // 
-            // checkBox68
-            // 
-            resources.ApplyResources(this.checkBox68, "checkBox68");
-            this.checkBox68.Checked = true;
-            this.checkBox68.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox68.Name = "checkBox68";
-            this.checkBox68.UseVisualStyleBackColor = true;
-            // 
-            // checkBox69
-            // 
-            resources.ApplyResources(this.checkBox69, "checkBox69");
-            this.checkBox69.Name = "checkBox69";
-            this.checkBox69.UseVisualStyleBackColor = true;
-            // 
-            // checkBox70
-            // 
-            resources.ApplyResources(this.checkBox70, "checkBox70");
-            this.checkBox70.Checked = true;
-            this.checkBox70.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox70.Name = "checkBox70";
-            this.checkBox70.UseVisualStyleBackColor = true;
-            // 
-            // checkBox71
-            // 
-            resources.ApplyResources(this.checkBox71, "checkBox71");
-            this.checkBox71.Checked = true;
-            this.checkBox71.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox71.Name = "checkBox71";
-            this.checkBox71.UseVisualStyleBackColor = true;
-            // 
-            // groupBox_recruit
-            // 
-            this.groupBox_recruit.Controls.Add(this.label89);
-            this.groupBox_recruit.Controls.Add(this.numericUpDown_PrecisionAIRECRUIT);
-            this.groupBox_recruit.Controls.Add(this.label88);
-            this.groupBox_recruit.Controls.Add(this.numericUpDown_SkillAIRECRUIT);
-            this.groupBox_recruit.Controls.Add(this.comboBox_AILevelPresetRECRUIT);
-            this.groupBox_recruit.Controls.Add(this.label51);
-            this.groupBox_recruit.Controls.Add(this.checkBox49);
-            this.groupBox_recruit.Controls.Add(this.checkBox48);
-            this.groupBox_recruit.Controls.Add(this.checkBox47);
-            this.groupBox_recruit.Controls.Add(this.checkBox46);
-            this.groupBox_recruit.Controls.Add(this.checkBox45);
-            this.groupBox_recruit.Controls.Add(this.checkBox44);
-            this.groupBox_recruit.Controls.Add(this.checkBox43);
-            this.groupBox_recruit.Controls.Add(this.checkBox42);
-            this.groupBox_recruit.Controls.Add(this.checkBox41);
-            this.groupBox_recruit.Controls.Add(this.checkBox40);
-            this.groupBox_recruit.Controls.Add(this.checkBox39);
-            this.groupBox_recruit.Controls.Add(this.checkBox38);
-            this.groupBox_recruit.Controls.Add(this.checkBox37);
-            this.groupBox_recruit.Controls.Add(this.checkBox34);
-            this.groupBox_recruit.Controls.Add(this.checkBox35);
-            this.groupBox_recruit.Controls.Add(this.checkBox36);
-            this.groupBox_recruit.Controls.Add(this.checkBox31);
-            this.groupBox_recruit.Controls.Add(this.checkBox32);
-            this.groupBox_recruit.Controls.Add(this.checkBox33);
-            this.groupBox_recruit.Controls.Add(this.checkBox30);
-            this.groupBox_recruit.Controls.Add(this.checkBox29);
-            this.groupBox_recruit.Controls.Add(this.checkBox28);
-            resources.ApplyResources(this.groupBox_recruit, "groupBox_recruit");
-            this.groupBox_recruit.Name = "groupBox_recruit";
-            this.groupBox_recruit.TabStop = false;
-            // 
-            // label89
-            // 
-            resources.ApplyResources(this.label89, "label89");
-            this.label89.Name = "label89";
-            // 
-            // numericUpDown_PrecisionAIRECRUIT
-            // 
-            this.numericUpDown_PrecisionAIRECRUIT.DecimalPlaces = 2;
-            this.numericUpDown_PrecisionAIRECRUIT.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            131072});
-            resources.ApplyResources(this.numericUpDown_PrecisionAIRECRUIT, "numericUpDown_PrecisionAIRECRUIT");
-            this.numericUpDown_PrecisionAIRECRUIT.Maximum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown_PrecisionAIRECRUIT.Name = "numericUpDown_PrecisionAIRECRUIT";
-            this.numericUpDown_PrecisionAIRECRUIT.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // label88
-            // 
-            resources.ApplyResources(this.label88, "label88");
-            this.label88.Name = "label88";
-            // 
-            // numericUpDown_SkillAIRECRUIT
-            // 
-            this.numericUpDown_SkillAIRECRUIT.DecimalPlaces = 2;
-            this.numericUpDown_SkillAIRECRUIT.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            131072});
-            resources.ApplyResources(this.numericUpDown_SkillAIRECRUIT, "numericUpDown_SkillAIRECRUIT");
-            this.numericUpDown_SkillAIRECRUIT.Maximum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown_SkillAIRECRUIT.Name = "numericUpDown_SkillAIRECRUIT";
-            this.numericUpDown_SkillAIRECRUIT.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // comboBox_AILevelPresetRECRUIT
-            // 
-            this.comboBox_AILevelPresetRECRUIT.FormattingEnabled = true;
-            this.comboBox_AILevelPresetRECRUIT.Items.AddRange(new object[] {
-            resources.GetString("comboBox_AILevelPresetRECRUIT.Items"),
-            resources.GetString("comboBox_AILevelPresetRECRUIT.Items1"),
-            resources.GetString("comboBox_AILevelPresetRECRUIT.Items2"),
-            resources.GetString("comboBox_AILevelPresetRECRUIT.Items3")});
-            resources.ApplyResources(this.comboBox_AILevelPresetRECRUIT, "comboBox_AILevelPresetRECRUIT");
-            this.comboBox_AILevelPresetRECRUIT.Name = "comboBox_AILevelPresetRECRUIT";
-            this.comboBox_AILevelPresetRECRUIT.SelectedIndexChanged += new System.EventHandler(this.comboBox_AILevelPresetRECRUIT_SelectedIndexChanged);
-            // 
-            // label51
-            // 
-            resources.ApplyResources(this.label51, "label51");
-            this.label51.Name = "label51";
-            // 
-            // checkBox49
-            // 
-            resources.ApplyResources(this.checkBox49, "checkBox49");
-            this.checkBox49.Checked = true;
-            this.checkBox49.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox49.Name = "checkBox49";
-            this.checkBox49.UseVisualStyleBackColor = true;
-            // 
-            // checkBox48
-            // 
-            resources.ApplyResources(this.checkBox48, "checkBox48");
-            this.checkBox48.Checked = true;
-            this.checkBox48.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox48.Name = "checkBox48";
-            this.checkBox48.UseVisualStyleBackColor = true;
-            // 
-            // checkBox47
-            // 
-            resources.ApplyResources(this.checkBox47, "checkBox47");
-            this.checkBox47.Checked = true;
-            this.checkBox47.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox47.Name = "checkBox47";
-            this.checkBox47.UseVisualStyleBackColor = true;
-            // 
-            // checkBox46
-            // 
-            resources.ApplyResources(this.checkBox46, "checkBox46");
-            this.checkBox46.Checked = true;
-            this.checkBox46.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox46.Name = "checkBox46";
-            this.checkBox46.UseVisualStyleBackColor = true;
-            // 
-            // checkBox45
-            // 
-            resources.ApplyResources(this.checkBox45, "checkBox45");
-            this.checkBox45.Checked = true;
-            this.checkBox45.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox45.Name = "checkBox45";
-            this.checkBox45.UseVisualStyleBackColor = true;
-            // 
-            // checkBox44
-            // 
-            resources.ApplyResources(this.checkBox44, "checkBox44");
-            this.checkBox44.Name = "checkBox44";
-            this.checkBox44.UseVisualStyleBackColor = true;
-            // 
-            // checkBox43
-            // 
-            resources.ApplyResources(this.checkBox43, "checkBox43");
-            this.checkBox43.Name = "checkBox43";
-            this.checkBox43.UseVisualStyleBackColor = true;
-            // 
-            // checkBox42
-            // 
-            resources.ApplyResources(this.checkBox42, "checkBox42");
-            this.checkBox42.Checked = true;
-            this.checkBox42.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox42.Name = "checkBox42";
-            this.checkBox42.UseVisualStyleBackColor = true;
-            // 
-            // checkBox41
-            // 
-            resources.ApplyResources(this.checkBox41, "checkBox41");
-            this.checkBox41.Checked = true;
-            this.checkBox41.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox41.Name = "checkBox41";
-            this.checkBox41.UseVisualStyleBackColor = true;
-            // 
-            // checkBox40
-            // 
-            resources.ApplyResources(this.checkBox40, "checkBox40");
-            this.checkBox40.Checked = true;
-            this.checkBox40.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox40.Name = "checkBox40";
-            this.checkBox40.UseVisualStyleBackColor = true;
-            // 
-            // checkBox39
-            // 
-            resources.ApplyResources(this.checkBox39, "checkBox39");
-            this.checkBox39.Checked = true;
-            this.checkBox39.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox39.Name = "checkBox39";
-            this.checkBox39.UseVisualStyleBackColor = true;
-            // 
-            // checkBox38
-            // 
-            resources.ApplyResources(this.checkBox38, "checkBox38");
-            this.checkBox38.Checked = true;
-            this.checkBox38.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox38.Name = "checkBox38";
-            this.checkBox38.UseVisualStyleBackColor = true;
-            // 
-            // checkBox37
-            // 
-            resources.ApplyResources(this.checkBox37, "checkBox37");
-            this.checkBox37.Checked = true;
-            this.checkBox37.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox37.Name = "checkBox37";
-            this.checkBox37.UseVisualStyleBackColor = true;
-            // 
-            // checkBox34
-            // 
-            resources.ApplyResources(this.checkBox34, "checkBox34");
-            this.checkBox34.Checked = true;
-            this.checkBox34.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox34.Name = "checkBox34";
-            this.checkBox34.UseVisualStyleBackColor = true;
-            // 
-            // checkBox35
-            // 
-            resources.ApplyResources(this.checkBox35, "checkBox35");
-            this.checkBox35.Checked = true;
-            this.checkBox35.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox35.Name = "checkBox35";
-            this.checkBox35.UseVisualStyleBackColor = true;
-            // 
-            // checkBox36
-            // 
-            resources.ApplyResources(this.checkBox36, "checkBox36");
-            this.checkBox36.Checked = true;
-            this.checkBox36.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox36.Name = "checkBox36";
-            this.checkBox36.UseVisualStyleBackColor = true;
-            // 
-            // checkBox31
-            // 
-            resources.ApplyResources(this.checkBox31, "checkBox31");
-            this.checkBox31.Checked = true;
-            this.checkBox31.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox31.Name = "checkBox31";
-            this.checkBox31.UseVisualStyleBackColor = true;
-            // 
-            // checkBox32
-            // 
-            resources.ApplyResources(this.checkBox32, "checkBox32");
-            this.checkBox32.Checked = true;
-            this.checkBox32.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox32.Name = "checkBox32";
-            this.checkBox32.UseVisualStyleBackColor = true;
-            // 
-            // checkBox33
-            // 
-            resources.ApplyResources(this.checkBox33, "checkBox33");
-            this.checkBox33.Checked = true;
-            this.checkBox33.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox33.Name = "checkBox33";
-            this.checkBox33.UseVisualStyleBackColor = true;
-            // 
-            // checkBox30
-            // 
-            resources.ApplyResources(this.checkBox30, "checkBox30");
-            this.checkBox30.Name = "checkBox30";
-            this.checkBox30.UseVisualStyleBackColor = true;
-            // 
-            // checkBox29
-            // 
-            resources.ApplyResources(this.checkBox29, "checkBox29");
-            this.checkBox29.Checked = true;
-            this.checkBox29.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox29.Name = "checkBox29";
-            this.checkBox29.UseVisualStyleBackColor = true;
-            // 
-            // checkBox28
-            // 
-            resources.ApplyResources(this.checkBox28, "checkBox28");
-            this.checkBox28.Checked = true;
-            this.checkBox28.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox28.Name = "checkBox28";
-            this.checkBox28.UseVisualStyleBackColor = true;
-            // 
             // numericUpDown4
             // 
             resources.ApplyResources(this.numericUpDown4, "numericUpDown4");
@@ -1101,60 +471,6 @@
             0,
             0});
             // 
-            // checkBox75
-            // 
-            resources.ApplyResources(this.checkBox75, "checkBox75");
-            this.checkBox75.Checked = true;
-            this.checkBox75.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox75.Name = "checkBox75";
-            this.checkBox75.UseVisualStyleBackColor = true;
-            // 
-            // checkBox76
-            // 
-            resources.ApplyResources(this.checkBox76, "checkBox76");
-            this.checkBox76.Name = "checkBox76";
-            this.checkBox76.UseVisualStyleBackColor = true;
-            // 
-            // checkBox77
-            // 
-            resources.ApplyResources(this.checkBox77, "checkBox77");
-            this.checkBox77.Checked = true;
-            this.checkBox77.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox77.Name = "checkBox77";
-            this.checkBox77.UseVisualStyleBackColor = true;
-            // 
-            // checkBox78
-            // 
-            resources.ApplyResources(this.checkBox78, "checkBox78");
-            this.checkBox78.Name = "checkBox78";
-            this.checkBox78.UseVisualStyleBackColor = true;
-            // 
-            // checkBox79
-            // 
-            resources.ApplyResources(this.checkBox79, "checkBox79");
-            this.checkBox79.Name = "checkBox79";
-            this.checkBox79.UseVisualStyleBackColor = true;
-            // 
-            // checkBox80
-            // 
-            resources.ApplyResources(this.checkBox80, "checkBox80");
-            this.checkBox80.Name = "checkBox80";
-            this.checkBox80.UseVisualStyleBackColor = true;
-            // 
-            // checkBox81
-            // 
-            resources.ApplyResources(this.checkBox81, "checkBox81");
-            this.checkBox81.Name = "checkBox81";
-            this.checkBox81.UseVisualStyleBackColor = true;
-            // 
-            // checkBox82
-            // 
-            resources.ApplyResources(this.checkBox82, "checkBox82");
-            this.checkBox82.Checked = true;
-            this.checkBox82.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox82.Name = "checkBox82";
-            this.checkBox82.UseVisualStyleBackColor = true;
-            // 
             // label27
             // 
             resources.ApplyResources(this.label27, "label27");
@@ -1166,267 +482,413 @@
             this.difficulte.Controls.Add(this.groupBox5);
             resources.ApplyResources(this.difficulte, "difficulte");
             this.difficulte.Name = "difficulte";
+            this.difficulte.Click += new System.EventHandler(this.difficulte_Click);
             // 
             // groupBox5
             // 
-            this.groupBox5.Controls.Add(this.radioButton10);
-            this.groupBox5.Controls.Add(this.radioButton9);
-            this.groupBox5.Controls.Add(this.radioButton8);
-            this.groupBox5.Controls.Add(this.radioButton7);
-            this.groupBox5.Controls.Add(this.groupBox_mercenary);
-            this.groupBox5.Controls.Add(this.groupBox_regular);
-            this.groupBox5.Controls.Add(this.groupBox_recruit);
-            this.groupBox5.Controls.Add(this.groupBox_veteran);
+            this.groupBox5.Controls.Add(this.groupBox_Custom);
             resources.ApplyResources(this.groupBox5, "groupBox5");
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.TabStop = false;
             // 
-            // radioButton10
+            // groupBox_Custom
             // 
-            resources.ApplyResources(this.radioButton10, "radioButton10");
-            this.radioButton10.Name = "radioButton10";
-            this.radioButton10.UseVisualStyleBackColor = true;
-            this.radioButton10.CheckedChanged += new System.EventHandler(this.radioButton10_CheckedChanged);
+            this.groupBox_Custom.Controls.Add(this.label94);
+            this.groupBox_Custom.Controls.Add(this.comboBox_MultipleSaves);
+            this.groupBox_Custom.Controls.Add(this.label95);
+            this.groupBox_Custom.Controls.Add(this.comboBox_AutoReport);
+            this.groupBox_Custom.Controls.Add(this.label96);
+            this.groupBox_Custom.Controls.Add(this.comboBox_MapContent);
+            this.groupBox_Custom.Controls.Add(this.label97);
+            this.groupBox_Custom.Controls.Add(this.label90);
+            this.groupBox_Custom.Controls.Add(this.comboBox_VonID);
+            this.groupBox_Custom.Controls.Add(this.label91);
+            this.groupBox_Custom.Controls.Add(this.comboBox_DeathMessage);
+            this.groupBox_Custom.Controls.Add(this.label92);
+            this.groupBox_Custom.Controls.Add(this.comboBox_ScoreTable);
+            this.groupBox_Custom.Controls.Add(this.label93);
+            this.groupBox_Custom.Controls.Add(this.label86);
+            this.groupBox_Custom.Controls.Add(this.comboBox_CameraShake);
+            this.groupBox_Custom.Controls.Add(this.label88);
+            this.groupBox_Custom.Controls.Add(this.comboBox_ThirdPersonView);
+            this.groupBox_Custom.Controls.Add(this.label89);
+            this.groupBox_Custom.Controls.Add(this.comboBox_VisionAid);
+            this.groupBox_Custom.Controls.Add(this.label64);
+            this.groupBox_Custom.Controls.Add(this.comboBox_WeaponCrosshair);
+            this.groupBox_Custom.Controls.Add(this.label65);
+            this.groupBox_Custom.Controls.Add(this.label66);
+            this.groupBox_Custom.Controls.Add(this.comboBox_StaminaBar);
+            this.groupBox_Custom.Controls.Add(this.label67);
+            this.groupBox_Custom.Controls.Add(this.comboBox_StanceIndicator);
+            this.groupBox_Custom.Controls.Add(this.label68);
+            this.groupBox_Custom.Controls.Add(this.comboBox_WeaponInfo);
+            this.groupBox_Custom.Controls.Add(this.label69);
+            this.groupBox_Custom.Controls.Add(this.comboBox_Waypoints);
+            this.groupBox_Custom.Controls.Add(this.label42);
+            this.groupBox_Custom.Controls.Add(this.comboBox_Commands);
+            this.groupBox_Custom.Controls.Add(this.label44);
+            this.groupBox_Custom.Controls.Add(this.comboBox_DetectedMines);
+            this.groupBox_Custom.Controls.Add(this.label51);
+            this.groupBox_Custom.Controls.Add(this.label62);
+            this.groupBox_Custom.Controls.Add(this.label61);
+            this.groupBox_Custom.Controls.Add(this.comboBox_EnemyTags);
+            this.groupBox_Custom.Controls.Add(this.label30);
+            this.groupBox_Custom.Controls.Add(this.comboBox_FriendlyTags);
+            this.groupBox_Custom.Controls.Add(this.label29);
+            this.groupBox_Custom.Controls.Add(this.comboBox_GroupIndicator);
+            this.groupBox_Custom.Controls.Add(this.label_GroupIndicator);
+            this.groupBox_Custom.Controls.Add(this.comboBox_ReducedDamage);
+            this.groupBox_Custom.Controls.Add(this.label_ReducedDamage);
+            this.groupBox_Custom.Controls.Add(this.label38);
+            this.groupBox_Custom.Controls.Add(this.numericUpDown_PrecisionAIVETERAN);
+            this.groupBox_Custom.Controls.Add(this.label39);
+            this.groupBox_Custom.Controls.Add(this.numericUpDown_SkillAIVETERAN);
+            this.groupBox_Custom.Controls.Add(this.comboBox_AILevelPresetVETERAN);
+            this.groupBox_Custom.Controls.Add(this.label40);
+            resources.ApplyResources(this.groupBox_Custom, "groupBox_Custom");
+            this.groupBox_Custom.Name = "groupBox_Custom";
+            this.groupBox_Custom.TabStop = false;
             // 
-            // radioButton9
+            // label94
             // 
-            resources.ApplyResources(this.radioButton9, "radioButton9");
-            this.radioButton9.Name = "radioButton9";
-            this.radioButton9.UseVisualStyleBackColor = true;
-            this.radioButton9.CheckedChanged += new System.EventHandler(this.radioButton9_CheckedChanged);
+            resources.ApplyResources(this.label94, "label94");
+            this.label94.Name = "label94";
             // 
-            // radioButton8
+            // comboBox_MultipleSaves
             // 
-            resources.ApplyResources(this.radioButton8, "radioButton8");
-            this.radioButton8.Name = "radioButton8";
-            this.radioButton8.UseVisualStyleBackColor = true;
-            this.radioButton8.CheckedChanged += new System.EventHandler(this.radioButton8_CheckedChanged);
+            this.comboBox_MultipleSaves.FormattingEnabled = true;
+            this.comboBox_MultipleSaves.Items.AddRange(new object[] {
+            resources.GetString("comboBox_MultipleSaves.Items"),
+            resources.GetString("comboBox_MultipleSaves.Items1")});
+            resources.ApplyResources(this.comboBox_MultipleSaves, "comboBox_MultipleSaves");
+            this.comboBox_MultipleSaves.Name = "comboBox_MultipleSaves";
             // 
-            // radioButton7
+            // label95
             // 
-            resources.ApplyResources(this.radioButton7, "radioButton7");
-            this.radioButton7.Checked = true;
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.TabStop = true;
-            this.radioButton7.UseVisualStyleBackColor = true;
-            this.radioButton7.CheckedChanged += new System.EventHandler(this.radioButton7_CheckedChanged);
+            resources.ApplyResources(this.label95, "label95");
+            this.label95.Name = "label95";
+            this.toolTip1.SetToolTip(this.label95, resources.GetString("label95.ToolTip"));
             // 
-            // groupBox_mercenary
+            // comboBox_AutoReport
             // 
-            this.groupBox_mercenary.Controls.Add(this.label29);
-            this.groupBox_mercenary.Controls.Add(this.numericUpDown_PrecisionAIMERCENARY);
-            this.groupBox_mercenary.Controls.Add(this.label30);
-            this.groupBox_mercenary.Controls.Add(this.numericUpDown_SkillAIMERCENARY);
-            this.groupBox_mercenary.Controls.Add(this.comboBox_AILevelPresetMERCENARY);
-            this.groupBox_mercenary.Controls.Add(this.label42);
-            this.groupBox_mercenary.Controls.Add(this.checkBox72);
-            this.groupBox_mercenary.Controls.Add(this.checkBox73);
-            this.groupBox_mercenary.Controls.Add(this.checkBox74);
-            this.groupBox_mercenary.Controls.Add(this.checkBox75);
-            this.groupBox_mercenary.Controls.Add(this.checkBox76);
-            this.groupBox_mercenary.Controls.Add(this.checkBox77);
-            this.groupBox_mercenary.Controls.Add(this.checkBox78);
-            this.groupBox_mercenary.Controls.Add(this.checkBox79);
-            this.groupBox_mercenary.Controls.Add(this.checkBox80);
-            this.groupBox_mercenary.Controls.Add(this.checkBox81);
-            this.groupBox_mercenary.Controls.Add(this.checkBox82);
-            this.groupBox_mercenary.Controls.Add(this.checkBox83);
-            this.groupBox_mercenary.Controls.Add(this.checkBox84);
-            this.groupBox_mercenary.Controls.Add(this.checkBox85);
-            this.groupBox_mercenary.Controls.Add(this.checkBox86);
-            this.groupBox_mercenary.Controls.Add(this.checkBox87);
-            this.groupBox_mercenary.Controls.Add(this.checkBox88);
-            this.groupBox_mercenary.Controls.Add(this.checkBox90);
-            this.groupBox_mercenary.Controls.Add(this.checkBox91);
-            this.groupBox_mercenary.Controls.Add(this.checkBox92);
-            this.groupBox_mercenary.Controls.Add(this.checkBox93);
-            this.groupBox_mercenary.Controls.Add(this.checkBox89);
-            resources.ApplyResources(this.groupBox_mercenary, "groupBox_mercenary");
-            this.groupBox_mercenary.Name = "groupBox_mercenary";
-            this.groupBox_mercenary.TabStop = false;
+            this.comboBox_AutoReport.FormattingEnabled = true;
+            this.comboBox_AutoReport.Items.AddRange(new object[] {
+            resources.GetString("comboBox_AutoReport.Items"),
+            resources.GetString("comboBox_AutoReport.Items1")});
+            resources.ApplyResources(this.comboBox_AutoReport, "comboBox_AutoReport");
+            this.comboBox_AutoReport.Name = "comboBox_AutoReport";
             // 
-            // label29
+            // label96
             // 
-            resources.ApplyResources(this.label29, "label29");
-            this.label29.Name = "label29";
+            resources.ApplyResources(this.label96, "label96");
+            this.label96.Name = "label96";
+            this.toolTip1.SetToolTip(this.label96, resources.GetString("label96.ToolTip"));
             // 
-            // numericUpDown_PrecisionAIMERCENARY
+            // comboBox_MapContent
             // 
-            this.numericUpDown_PrecisionAIMERCENARY.DecimalPlaces = 2;
-            this.numericUpDown_PrecisionAIMERCENARY.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            131072});
-            resources.ApplyResources(this.numericUpDown_PrecisionAIMERCENARY, "numericUpDown_PrecisionAIMERCENARY");
-            this.numericUpDown_PrecisionAIMERCENARY.Maximum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown_PrecisionAIMERCENARY.Name = "numericUpDown_PrecisionAIMERCENARY";
-            this.numericUpDown_PrecisionAIMERCENARY.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            this.comboBox_MapContent.FormattingEnabled = true;
+            this.comboBox_MapContent.Items.AddRange(new object[] {
+            resources.GetString("comboBox_MapContent.Items"),
+            resources.GetString("comboBox_MapContent.Items1")});
+            resources.ApplyResources(this.comboBox_MapContent, "comboBox_MapContent");
+            this.comboBox_MapContent.Name = "comboBox_MapContent";
             // 
-            // label30
+            // label97
             // 
-            resources.ApplyResources(this.label30, "label30");
-            this.label30.Name = "label30";
+            resources.ApplyResources(this.label97, "label97");
+            this.label97.Name = "label97";
+            this.toolTip1.SetToolTip(this.label97, resources.GetString("label97.ToolTip"));
             // 
-            // numericUpDown_SkillAIMERCENARY
+            // label90
             // 
-            this.numericUpDown_SkillAIMERCENARY.DecimalPlaces = 2;
-            this.numericUpDown_SkillAIMERCENARY.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            131072});
-            resources.ApplyResources(this.numericUpDown_SkillAIMERCENARY, "numericUpDown_SkillAIMERCENARY");
-            this.numericUpDown_SkillAIMERCENARY.Maximum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown_SkillAIMERCENARY.Name = "numericUpDown_SkillAIMERCENARY";
-            this.numericUpDown_SkillAIMERCENARY.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            resources.ApplyResources(this.label90, "label90");
+            this.label90.Name = "label90";
             // 
-            // comboBox_AILevelPresetMERCENARY
+            // comboBox_VonID
             // 
-            this.comboBox_AILevelPresetMERCENARY.FormattingEnabled = true;
-            this.comboBox_AILevelPresetMERCENARY.Items.AddRange(new object[] {
-            resources.GetString("comboBox_AILevelPresetMERCENARY.Items"),
-            resources.GetString("comboBox_AILevelPresetMERCENARY.Items1"),
-            resources.GetString("comboBox_AILevelPresetMERCENARY.Items2"),
-            resources.GetString("comboBox_AILevelPresetMERCENARY.Items3")});
-            resources.ApplyResources(this.comboBox_AILevelPresetMERCENARY, "comboBox_AILevelPresetMERCENARY");
-            this.comboBox_AILevelPresetMERCENARY.Name = "comboBox_AILevelPresetMERCENARY";
-            this.comboBox_AILevelPresetMERCENARY.SelectedIndexChanged += new System.EventHandler(this.comboBox_AILevelPresetMERCENARY_SelectedIndexChanged);
+            this.comboBox_VonID.FormattingEnabled = true;
+            this.comboBox_VonID.Items.AddRange(new object[] {
+            resources.GetString("comboBox_VonID.Items"),
+            resources.GetString("comboBox_VonID.Items1")});
+            resources.ApplyResources(this.comboBox_VonID, "comboBox_VonID");
+            this.comboBox_VonID.Name = "comboBox_VonID";
+            // 
+            // label91
+            // 
+            resources.ApplyResources(this.label91, "label91");
+            this.label91.Name = "label91";
+            this.toolTip1.SetToolTip(this.label91, resources.GetString("label91.ToolTip"));
+            // 
+            // comboBox_DeathMessage
+            // 
+            this.comboBox_DeathMessage.FormattingEnabled = true;
+            this.comboBox_DeathMessage.Items.AddRange(new object[] {
+            resources.GetString("comboBox_DeathMessage.Items"),
+            resources.GetString("comboBox_DeathMessage.Items1")});
+            resources.ApplyResources(this.comboBox_DeathMessage, "comboBox_DeathMessage");
+            this.comboBox_DeathMessage.Name = "comboBox_DeathMessage";
+            // 
+            // label92
+            // 
+            resources.ApplyResources(this.label92, "label92");
+            this.label92.Name = "label92";
+            this.toolTip1.SetToolTip(this.label92, resources.GetString("label92.ToolTip"));
+            // 
+            // comboBox_ScoreTable
+            // 
+            this.comboBox_ScoreTable.FormattingEnabled = true;
+            this.comboBox_ScoreTable.Items.AddRange(new object[] {
+            resources.GetString("comboBox_ScoreTable.Items"),
+            resources.GetString("comboBox_ScoreTable.Items1")});
+            resources.ApplyResources(this.comboBox_ScoreTable, "comboBox_ScoreTable");
+            this.comboBox_ScoreTable.Name = "comboBox_ScoreTable";
+            // 
+            // label93
+            // 
+            resources.ApplyResources(this.label93, "label93");
+            this.label93.Name = "label93";
+            this.toolTip1.SetToolTip(this.label93, resources.GetString("label93.ToolTip"));
+            // 
+            // label86
+            // 
+            resources.ApplyResources(this.label86, "label86");
+            this.label86.Name = "label86";
+            // 
+            // comboBox_CameraShake
+            // 
+            this.comboBox_CameraShake.FormattingEnabled = true;
+            this.comboBox_CameraShake.Items.AddRange(new object[] {
+            resources.GetString("comboBox_CameraShake.Items"),
+            resources.GetString("comboBox_CameraShake.Items1")});
+            resources.ApplyResources(this.comboBox_CameraShake, "comboBox_CameraShake");
+            this.comboBox_CameraShake.Name = "comboBox_CameraShake";
+            // 
+            // label88
+            // 
+            resources.ApplyResources(this.label88, "label88");
+            this.label88.Name = "label88";
+            this.toolTip1.SetToolTip(this.label88, resources.GetString("label88.ToolTip"));
+            // 
+            // comboBox_ThirdPersonView
+            // 
+            this.comboBox_ThirdPersonView.FormattingEnabled = true;
+            this.comboBox_ThirdPersonView.Items.AddRange(new object[] {
+            resources.GetString("comboBox_ThirdPersonView.Items"),
+            resources.GetString("comboBox_ThirdPersonView.Items1")});
+            resources.ApplyResources(this.comboBox_ThirdPersonView, "comboBox_ThirdPersonView");
+            this.comboBox_ThirdPersonView.Name = "comboBox_ThirdPersonView";
+            // 
+            // label89
+            // 
+            resources.ApplyResources(this.label89, "label89");
+            this.label89.Name = "label89";
+            this.toolTip1.SetToolTip(this.label89, resources.GetString("label89.ToolTip"));
+            // 
+            // comboBox_VisionAid
+            // 
+            this.comboBox_VisionAid.FormattingEnabled = true;
+            this.comboBox_VisionAid.Items.AddRange(new object[] {
+            resources.GetString("comboBox_VisionAid.Items"),
+            resources.GetString("comboBox_VisionAid.Items1")});
+            resources.ApplyResources(this.comboBox_VisionAid, "comboBox_VisionAid");
+            this.comboBox_VisionAid.Name = "comboBox_VisionAid";
+            // 
+            // label64
+            // 
+            resources.ApplyResources(this.label64, "label64");
+            this.label64.Name = "label64";
+            this.toolTip1.SetToolTip(this.label64, resources.GetString("label64.ToolTip"));
+            // 
+            // comboBox_WeaponCrosshair
+            // 
+            this.comboBox_WeaponCrosshair.FormattingEnabled = true;
+            this.comboBox_WeaponCrosshair.Items.AddRange(new object[] {
+            resources.GetString("comboBox_WeaponCrosshair.Items"),
+            resources.GetString("comboBox_WeaponCrosshair.Items1")});
+            resources.ApplyResources(this.comboBox_WeaponCrosshair, "comboBox_WeaponCrosshair");
+            this.comboBox_WeaponCrosshair.Name = "comboBox_WeaponCrosshair";
+            // 
+            // label65
+            // 
+            resources.ApplyResources(this.label65, "label65");
+            this.label65.Name = "label65";
+            this.toolTip1.SetToolTip(this.label65, resources.GetString("label65.ToolTip"));
+            // 
+            // label66
+            // 
+            resources.ApplyResources(this.label66, "label66");
+            this.label66.Name = "label66";
+            // 
+            // comboBox_StaminaBar
+            // 
+            this.comboBox_StaminaBar.FormattingEnabled = true;
+            this.comboBox_StaminaBar.Items.AddRange(new object[] {
+            resources.GetString("comboBox_StaminaBar.Items"),
+            resources.GetString("comboBox_StaminaBar.Items1")});
+            resources.ApplyResources(this.comboBox_StaminaBar, "comboBox_StaminaBar");
+            this.comboBox_StaminaBar.Name = "comboBox_StaminaBar";
+            // 
+            // label67
+            // 
+            resources.ApplyResources(this.label67, "label67");
+            this.label67.Name = "label67";
+            this.toolTip1.SetToolTip(this.label67, resources.GetString("label67.ToolTip"));
+            // 
+            // comboBox_StanceIndicator
+            // 
+            this.comboBox_StanceIndicator.FormattingEnabled = true;
+            this.comboBox_StanceIndicator.Items.AddRange(new object[] {
+            resources.GetString("comboBox_StanceIndicator.Items"),
+            resources.GetString("comboBox_StanceIndicator.Items1"),
+            resources.GetString("comboBox_StanceIndicator.Items2")});
+            resources.ApplyResources(this.comboBox_StanceIndicator, "comboBox_StanceIndicator");
+            this.comboBox_StanceIndicator.Name = "comboBox_StanceIndicator";
+            // 
+            // label68
+            // 
+            resources.ApplyResources(this.label68, "label68");
+            this.label68.Name = "label68";
+            this.toolTip1.SetToolTip(this.label68, resources.GetString("label68.ToolTip"));
+            // 
+            // comboBox_WeaponInfo
+            // 
+            this.comboBox_WeaponInfo.FormattingEnabled = true;
+            this.comboBox_WeaponInfo.Items.AddRange(new object[] {
+            resources.GetString("comboBox_WeaponInfo.Items"),
+            resources.GetString("comboBox_WeaponInfo.Items1"),
+            resources.GetString("comboBox_WeaponInfo.Items2")});
+            resources.ApplyResources(this.comboBox_WeaponInfo, "comboBox_WeaponInfo");
+            this.comboBox_WeaponInfo.Name = "comboBox_WeaponInfo";
+            // 
+            // label69
+            // 
+            resources.ApplyResources(this.label69, "label69");
+            this.label69.Name = "label69";
+            this.toolTip1.SetToolTip(this.label69, resources.GetString("label69.ToolTip"));
+            // 
+            // comboBox_Waypoints
+            // 
+            this.comboBox_Waypoints.FormattingEnabled = true;
+            this.comboBox_Waypoints.Items.AddRange(new object[] {
+            resources.GetString("comboBox_Waypoints.Items"),
+            resources.GetString("comboBox_Waypoints.Items1"),
+            resources.GetString("comboBox_Waypoints.Items2")});
+            resources.ApplyResources(this.comboBox_Waypoints, "comboBox_Waypoints");
+            this.comboBox_Waypoints.Name = "comboBox_Waypoints";
             // 
             // label42
             // 
             resources.ApplyResources(this.label42, "label42");
             this.label42.Name = "label42";
+            this.toolTip1.SetToolTip(this.label42, resources.GetString("label42.ToolTip"));
             // 
-            // checkBox72
+            // comboBox_Commands
             // 
-            resources.ApplyResources(this.checkBox72, "checkBox72");
-            this.checkBox72.Name = "checkBox72";
-            this.checkBox72.UseVisualStyleBackColor = true;
+            this.comboBox_Commands.FormattingEnabled = true;
+            this.comboBox_Commands.Items.AddRange(new object[] {
+            resources.GetString("comboBox_Commands.Items"),
+            resources.GetString("comboBox_Commands.Items1"),
+            resources.GetString("comboBox_Commands.Items2")});
+            resources.ApplyResources(this.comboBox_Commands, "comboBox_Commands");
+            this.comboBox_Commands.Name = "comboBox_Commands";
             // 
-            // checkBox73
+            // label44
             // 
-            resources.ApplyResources(this.checkBox73, "checkBox73");
-            this.checkBox73.Name = "checkBox73";
-            this.checkBox73.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.label44, "label44");
+            this.label44.Name = "label44";
+            this.toolTip1.SetToolTip(this.label44, resources.GetString("label44.ToolTip"));
             // 
-            // checkBox74
+            // comboBox_DetectedMines
             // 
-            resources.ApplyResources(this.checkBox74, "checkBox74");
-            this.checkBox74.Checked = true;
-            this.checkBox74.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox74.Name = "checkBox74";
-            this.checkBox74.UseVisualStyleBackColor = true;
+            this.comboBox_DetectedMines.FormattingEnabled = true;
+            this.comboBox_DetectedMines.Items.AddRange(new object[] {
+            resources.GetString("comboBox_DetectedMines.Items"),
+            resources.GetString("comboBox_DetectedMines.Items1"),
+            resources.GetString("comboBox_DetectedMines.Items2")});
+            resources.ApplyResources(this.comboBox_DetectedMines, "comboBox_DetectedMines");
+            this.comboBox_DetectedMines.Name = "comboBox_DetectedMines";
             // 
-            // checkBox83
+            // label51
             // 
-            resources.ApplyResources(this.checkBox83, "checkBox83");
-            this.checkBox83.Name = "checkBox83";
-            this.checkBox83.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.label51, "label51");
+            this.label51.Name = "label51";
+            this.toolTip1.SetToolTip(this.label51, resources.GetString("label51.ToolTip"));
             // 
-            // checkBox84
+            // label62
             // 
-            resources.ApplyResources(this.checkBox84, "checkBox84");
-            this.checkBox84.Name = "checkBox84";
-            this.checkBox84.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.label62, "label62");
+            this.label62.Name = "label62";
             // 
-            // checkBox85
+            // label61
             // 
-            resources.ApplyResources(this.checkBox85, "checkBox85");
-            this.checkBox85.Name = "checkBox85";
-            this.checkBox85.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.label61, "label61");
+            this.label61.Name = "label61";
             // 
-            // checkBox86
+            // comboBox_EnemyTags
             // 
-            resources.ApplyResources(this.checkBox86, "checkBox86");
-            this.checkBox86.Name = "checkBox86";
-            this.checkBox86.UseVisualStyleBackColor = true;
+            this.comboBox_EnemyTags.FormattingEnabled = true;
+            this.comboBox_EnemyTags.Items.AddRange(new object[] {
+            resources.GetString("comboBox_EnemyTags.Items"),
+            resources.GetString("comboBox_EnemyTags.Items1"),
+            resources.GetString("comboBox_EnemyTags.Items2")});
+            resources.ApplyResources(this.comboBox_EnemyTags, "comboBox_EnemyTags");
+            this.comboBox_EnemyTags.Name = "comboBox_EnemyTags";
             // 
-            // checkBox87
+            // label30
             // 
-            resources.ApplyResources(this.checkBox87, "checkBox87");
-            this.checkBox87.Name = "checkBox87";
-            this.checkBox87.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.label30, "label30");
+            this.label30.Name = "label30";
+            this.toolTip1.SetToolTip(this.label30, resources.GetString("label30.ToolTip"));
             // 
-            // checkBox88
+            // comboBox_FriendlyTags
             // 
-            resources.ApplyResources(this.checkBox88, "checkBox88");
-            this.checkBox88.Name = "checkBox88";
-            this.checkBox88.UseVisualStyleBackColor = true;
+            this.comboBox_FriendlyTags.FormattingEnabled = true;
+            this.comboBox_FriendlyTags.Items.AddRange(new object[] {
+            resources.GetString("comboBox_FriendlyTags.Items"),
+            resources.GetString("comboBox_FriendlyTags.Items1"),
+            resources.GetString("comboBox_FriendlyTags.Items2")});
+            resources.ApplyResources(this.comboBox_FriendlyTags, "comboBox_FriendlyTags");
+            this.comboBox_FriendlyTags.Name = "comboBox_FriendlyTags";
             // 
-            // checkBox90
+            // label29
             // 
-            resources.ApplyResources(this.checkBox90, "checkBox90");
-            this.checkBox90.Name = "checkBox90";
-            this.checkBox90.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.label29, "label29");
+            this.label29.Name = "label29";
+            this.toolTip1.SetToolTip(this.label29, resources.GetString("label29.ToolTip"));
             // 
-            // checkBox91
+            // comboBox_GroupIndicator
             // 
-            resources.ApplyResources(this.checkBox91, "checkBox91");
-            this.checkBox91.Name = "checkBox91";
-            this.checkBox91.UseVisualStyleBackColor = true;
+            this.comboBox_GroupIndicator.FormattingEnabled = true;
+            this.comboBox_GroupIndicator.Items.AddRange(new object[] {
+            resources.GetString("comboBox_GroupIndicator.Items"),
+            resources.GetString("comboBox_GroupIndicator.Items1"),
+            resources.GetString("comboBox_GroupIndicator.Items2")});
+            resources.ApplyResources(this.comboBox_GroupIndicator, "comboBox_GroupIndicator");
+            this.comboBox_GroupIndicator.Name = "comboBox_GroupIndicator";
+            this.comboBox_GroupIndicator.SelectedIndexChanged += new System.EventHandler(this.comboBox7_SelectedIndexChanged);
             // 
-            // checkBox92
+            // label_GroupIndicator
             // 
-            resources.ApplyResources(this.checkBox92, "checkBox92");
-            this.checkBox92.Name = "checkBox92";
-            this.checkBox92.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.label_GroupIndicator, "label_GroupIndicator");
+            this.label_GroupIndicator.Name = "label_GroupIndicator";
+            this.toolTip1.SetToolTip(this.label_GroupIndicator, resources.GetString("label_GroupIndicator.ToolTip"));
+            this.label_GroupIndicator.Click += new System.EventHandler(this.label28_Click);
             // 
-            // checkBox93
+            // comboBox_ReducedDamage
             // 
-            resources.ApplyResources(this.checkBox93, "checkBox93");
-            this.checkBox93.Name = "checkBox93";
-            this.checkBox93.UseVisualStyleBackColor = true;
+            this.comboBox_ReducedDamage.FormattingEnabled = true;
+            this.comboBox_ReducedDamage.Items.AddRange(new object[] {
+            resources.GetString("comboBox_ReducedDamage.Items"),
+            resources.GetString("comboBox_ReducedDamage.Items1")});
+            resources.ApplyResources(this.comboBox_ReducedDamage, "comboBox_ReducedDamage");
+            this.comboBox_ReducedDamage.Name = "comboBox_ReducedDamage";
             // 
-            // groupBox_veteran
+            // label_ReducedDamage
             // 
-            this.groupBox_veteran.Controls.Add(this.label38);
-            this.groupBox_veteran.Controls.Add(this.numericUpDown_PrecisionAIVETERAN);
-            this.groupBox_veteran.Controls.Add(this.label39);
-            this.groupBox_veteran.Controls.Add(this.numericUpDown_SkillAIVETERAN);
-            this.groupBox_veteran.Controls.Add(this.comboBox_AILevelPresetVETERAN);
-            this.groupBox_veteran.Controls.Add(this.label40);
-            this.groupBox_veteran.Controls.Add(this.checkBox94);
-            this.groupBox_veteran.Controls.Add(this.checkBox95);
-            this.groupBox_veteran.Controls.Add(this.checkBox96);
-            this.groupBox_veteran.Controls.Add(this.checkBox97);
-            this.groupBox_veteran.Controls.Add(this.checkBox98);
-            this.groupBox_veteran.Controls.Add(this.checkBox99);
-            this.groupBox_veteran.Controls.Add(this.checkBox100);
-            this.groupBox_veteran.Controls.Add(this.checkBox101);
-            this.groupBox_veteran.Controls.Add(this.checkBox102);
-            this.groupBox_veteran.Controls.Add(this.checkBox103);
-            this.groupBox_veteran.Controls.Add(this.checkBox104);
-            this.groupBox_veteran.Controls.Add(this.checkBox105);
-            this.groupBox_veteran.Controls.Add(this.checkBox106);
-            this.groupBox_veteran.Controls.Add(this.checkBox107);
-            this.groupBox_veteran.Controls.Add(this.checkBox108);
-            this.groupBox_veteran.Controls.Add(this.checkBox109);
-            this.groupBox_veteran.Controls.Add(this.checkBox110);
-            this.groupBox_veteran.Controls.Add(this.checkBox111);
-            this.groupBox_veteran.Controls.Add(this.checkBox112);
-            this.groupBox_veteran.Controls.Add(this.checkBox113);
-            this.groupBox_veteran.Controls.Add(this.checkBox114);
-            this.groupBox_veteran.Controls.Add(this.checkBox115);
-            resources.ApplyResources(this.groupBox_veteran, "groupBox_veteran");
-            this.groupBox_veteran.Name = "groupBox_veteran";
-            this.groupBox_veteran.TabStop = false;
+            resources.ApplyResources(this.label_ReducedDamage, "label_ReducedDamage");
+            this.label_ReducedDamage.Name = "label_ReducedDamage";
+            this.toolTip1.SetToolTip(this.label_ReducedDamage, resources.GetString("label_ReducedDamage.ToolTip"));
+            this.label_ReducedDamage.Click += new System.EventHandler(this.label7_Click);
             // 
             // label38
             // 
@@ -1496,160 +958,6 @@
             // 
             resources.ApplyResources(this.label40, "label40");
             this.label40.Name = "label40";
-            // 
-            // checkBox94
-            // 
-            resources.ApplyResources(this.checkBox94, "checkBox94");
-            this.checkBox94.Name = "checkBox94";
-            this.checkBox94.UseVisualStyleBackColor = true;
-            // 
-            // checkBox95
-            // 
-            resources.ApplyResources(this.checkBox95, "checkBox95");
-            this.checkBox95.Name = "checkBox95";
-            this.checkBox95.UseVisualStyleBackColor = true;
-            // 
-            // checkBox96
-            // 
-            resources.ApplyResources(this.checkBox96, "checkBox96");
-            this.checkBox96.Checked = true;
-            this.checkBox96.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox96.Name = "checkBox96";
-            this.checkBox96.UseVisualStyleBackColor = true;
-            // 
-            // checkBox97
-            // 
-            resources.ApplyResources(this.checkBox97, "checkBox97");
-            this.checkBox97.Checked = true;
-            this.checkBox97.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox97.Name = "checkBox97";
-            this.checkBox97.UseVisualStyleBackColor = true;
-            // 
-            // checkBox98
-            // 
-            resources.ApplyResources(this.checkBox98, "checkBox98");
-            this.checkBox98.Name = "checkBox98";
-            this.checkBox98.UseVisualStyleBackColor = true;
-            // 
-            // checkBox99
-            // 
-            resources.ApplyResources(this.checkBox99, "checkBox99");
-            this.checkBox99.Checked = true;
-            this.checkBox99.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox99.Name = "checkBox99";
-            this.checkBox99.UseVisualStyleBackColor = true;
-            // 
-            // checkBox100
-            // 
-            resources.ApplyResources(this.checkBox100, "checkBox100");
-            this.checkBox100.Name = "checkBox100";
-            this.checkBox100.UseVisualStyleBackColor = true;
-            // 
-            // checkBox101
-            // 
-            resources.ApplyResources(this.checkBox101, "checkBox101");
-            this.checkBox101.Checked = true;
-            this.checkBox101.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox101.Name = "checkBox101";
-            this.checkBox101.UseVisualStyleBackColor = true;
-            // 
-            // checkBox102
-            // 
-            resources.ApplyResources(this.checkBox102, "checkBox102");
-            this.checkBox102.Checked = true;
-            this.checkBox102.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox102.Name = "checkBox102";
-            this.checkBox102.UseVisualStyleBackColor = true;
-            // 
-            // checkBox103
-            // 
-            resources.ApplyResources(this.checkBox103, "checkBox103");
-            this.checkBox103.Name = "checkBox103";
-            this.checkBox103.UseVisualStyleBackColor = true;
-            // 
-            // checkBox104
-            // 
-            resources.ApplyResources(this.checkBox104, "checkBox104");
-            this.checkBox104.Checked = true;
-            this.checkBox104.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox104.Name = "checkBox104";
-            this.checkBox104.UseVisualStyleBackColor = true;
-            // 
-            // checkBox105
-            // 
-            resources.ApplyResources(this.checkBox105, "checkBox105");
-            this.checkBox105.Name = "checkBox105";
-            this.checkBox105.UseVisualStyleBackColor = true;
-            // 
-            // checkBox106
-            // 
-            resources.ApplyResources(this.checkBox106, "checkBox106");
-            this.checkBox106.Checked = true;
-            this.checkBox106.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox106.Name = "checkBox106";
-            this.checkBox106.UseVisualStyleBackColor = true;
-            // 
-            // checkBox107
-            // 
-            resources.ApplyResources(this.checkBox107, "checkBox107");
-            this.checkBox107.Checked = true;
-            this.checkBox107.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox107.Name = "checkBox107";
-            this.checkBox107.UseVisualStyleBackColor = true;
-            // 
-            // checkBox108
-            // 
-            resources.ApplyResources(this.checkBox108, "checkBox108");
-            this.checkBox108.Checked = true;
-            this.checkBox108.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox108.Name = "checkBox108";
-            this.checkBox108.UseVisualStyleBackColor = true;
-            // 
-            // checkBox109
-            // 
-            resources.ApplyResources(this.checkBox109, "checkBox109");
-            this.checkBox109.Checked = true;
-            this.checkBox109.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox109.Name = "checkBox109";
-            this.checkBox109.UseVisualStyleBackColor = true;
-            // 
-            // checkBox110
-            // 
-            resources.ApplyResources(this.checkBox110, "checkBox110");
-            this.checkBox110.Name = "checkBox110";
-            this.checkBox110.UseVisualStyleBackColor = true;
-            // 
-            // checkBox111
-            // 
-            resources.ApplyResources(this.checkBox111, "checkBox111");
-            this.checkBox111.Checked = true;
-            this.checkBox111.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox111.Name = "checkBox111";
-            this.checkBox111.UseVisualStyleBackColor = true;
-            // 
-            // checkBox112
-            // 
-            resources.ApplyResources(this.checkBox112, "checkBox112");
-            this.checkBox112.Name = "checkBox112";
-            this.checkBox112.UseVisualStyleBackColor = true;
-            // 
-            // checkBox113
-            // 
-            resources.ApplyResources(this.checkBox113, "checkBox113");
-            this.checkBox113.Name = "checkBox113";
-            this.checkBox113.UseVisualStyleBackColor = true;
-            // 
-            // checkBox114
-            // 
-            resources.ApplyResources(this.checkBox114, "checkBox114");
-            this.checkBox114.Name = "checkBox114";
-            this.checkBox114.UseVisualStyleBackColor = true;
-            // 
-            // checkBox115
-            // 
-            resources.ApplyResources(this.checkBox115, "checkBox115");
-            this.checkBox115.Name = "checkBox115";
-            this.checkBox115.UseVisualStyleBackColor = true;
             // 
             // label57
             // 
@@ -3916,24 +3224,11 @@
             this.MaximizeBox = false;
             this.Name = "FenetrePrincipale";
             this.Load += new System.EventHandler(this.FenetrePrincipale_Load);
-            this.groupBox_regular.ResumeLayout(false);
-            this.groupBox_regular.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_PrecisionAIREGULAR)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_SkillAIREGULAR)).EndInit();
-            this.groupBox_recruit.ResumeLayout(false);
-            this.groupBox_recruit.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_PrecisionAIRECRUIT)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_SkillAIRECRUIT)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
             this.difficulte.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
-            this.groupBox_mercenary.ResumeLayout(false);
-            this.groupBox_mercenary.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_PrecisionAIMERCENARY)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_SkillAIMERCENARY)).EndInit();
-            this.groupBox_veteran.ResumeLayout(false);
-            this.groupBox_veteran.PerformLayout();
+            this.groupBox_Custom.ResumeLayout(false);
+            this.groupBox_Custom.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_PrecisionAIVETERAN)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_SkillAIVETERAN)).EndInit();
             this.groupBox12.ResumeLayout(false);
@@ -4038,107 +3333,10 @@
         }
 
         #endregion
-
-        internal System.Windows.Forms.CheckBox checkBox89;
-        internal System.Windows.Forms.GroupBox groupBox_regular;
-        internal System.Windows.Forms.CheckBox checkBox50;
-        internal System.Windows.Forms.CheckBox checkBox51;
-        internal System.Windows.Forms.CheckBox checkBox52;
-        internal System.Windows.Forms.CheckBox checkBox53;
-        internal System.Windows.Forms.CheckBox checkBox54;
-        internal System.Windows.Forms.CheckBox checkBox55;
-        internal System.Windows.Forms.CheckBox checkBox56;
-        internal System.Windows.Forms.CheckBox checkBox57;
-        internal System.Windows.Forms.CheckBox checkBox58;
-        internal System.Windows.Forms.CheckBox checkBox59;
-        internal System.Windows.Forms.CheckBox checkBox60;
-        internal System.Windows.Forms.CheckBox checkBox61;
-        internal System.Windows.Forms.CheckBox checkBox62;
-        internal System.Windows.Forms.CheckBox checkBox63;
-        internal System.Windows.Forms.CheckBox checkBox64;
-        internal System.Windows.Forms.CheckBox checkBox65;
-        internal System.Windows.Forms.CheckBox checkBox66;
-        internal System.Windows.Forms.CheckBox checkBox67;
-        internal System.Windows.Forms.CheckBox checkBox68;
-        internal System.Windows.Forms.CheckBox checkBox69;
-        internal System.Windows.Forms.CheckBox checkBox70;
-        internal System.Windows.Forms.CheckBox checkBox71;
-        internal System.Windows.Forms.GroupBox groupBox_recruit;
-        internal System.Windows.Forms.CheckBox checkBox49;
-        internal System.Windows.Forms.CheckBox checkBox48;
-        internal System.Windows.Forms.CheckBox checkBox47;
-        internal System.Windows.Forms.CheckBox checkBox46;
-        internal System.Windows.Forms.CheckBox checkBox45;
-        internal System.Windows.Forms.CheckBox checkBox44;
-        internal System.Windows.Forms.CheckBox checkBox43;
-        internal System.Windows.Forms.CheckBox checkBox42;
-        internal System.Windows.Forms.CheckBox checkBox41;
-        internal System.Windows.Forms.CheckBox checkBox40;
-        internal System.Windows.Forms.CheckBox checkBox39;
-        internal System.Windows.Forms.CheckBox checkBox38;
-        internal System.Windows.Forms.CheckBox checkBox37;
-        internal System.Windows.Forms.CheckBox checkBox34;
-        internal System.Windows.Forms.CheckBox checkBox35;
-        internal System.Windows.Forms.CheckBox checkBox36;
-        internal System.Windows.Forms.CheckBox checkBox31;
-        internal System.Windows.Forms.CheckBox checkBox32;
-        internal System.Windows.Forms.CheckBox checkBox33;
-        internal System.Windows.Forms.CheckBox checkBox30;
-        internal System.Windows.Forms.CheckBox checkBox29;
-        internal System.Windows.Forms.CheckBox checkBox28;
         internal System.Windows.Forms.NumericUpDown numericUpDown4;
-        internal System.Windows.Forms.CheckBox checkBox75;
-        internal System.Windows.Forms.CheckBox checkBox76;
-        internal System.Windows.Forms.CheckBox checkBox77;
-        internal System.Windows.Forms.CheckBox checkBox78;
-        internal System.Windows.Forms.CheckBox checkBox79;
-        internal System.Windows.Forms.CheckBox checkBox80;
-        internal System.Windows.Forms.CheckBox checkBox81;
-        internal System.Windows.Forms.CheckBox checkBox82;
         internal System.Windows.Forms.Label label27;
         internal System.Windows.Forms.TabPage difficulte;
         internal System.Windows.Forms.GroupBox groupBox5;
-        internal System.Windows.Forms.RadioButton radioButton10;
-        internal System.Windows.Forms.RadioButton radioButton9;
-        internal System.Windows.Forms.RadioButton radioButton8;
-        internal System.Windows.Forms.RadioButton radioButton7;
-        internal System.Windows.Forms.GroupBox groupBox_mercenary;
-        internal System.Windows.Forms.CheckBox checkBox72;
-        internal System.Windows.Forms.CheckBox checkBox73;
-        internal System.Windows.Forms.CheckBox checkBox74;
-        internal System.Windows.Forms.CheckBox checkBox83;
-        internal System.Windows.Forms.CheckBox checkBox84;
-        internal System.Windows.Forms.CheckBox checkBox85;
-        internal System.Windows.Forms.CheckBox checkBox86;
-        internal System.Windows.Forms.CheckBox checkBox87;
-        internal System.Windows.Forms.CheckBox checkBox88;
-        internal System.Windows.Forms.CheckBox checkBox90;
-        internal System.Windows.Forms.CheckBox checkBox91;
-        internal System.Windows.Forms.CheckBox checkBox92;
-        internal System.Windows.Forms.CheckBox checkBox93;
-        internal System.Windows.Forms.GroupBox groupBox_veteran;
-        internal System.Windows.Forms.CheckBox checkBox94;
-        internal System.Windows.Forms.CheckBox checkBox95;
-        internal System.Windows.Forms.CheckBox checkBox96;
-        internal System.Windows.Forms.CheckBox checkBox97;
-        internal System.Windows.Forms.CheckBox checkBox98;
-        internal System.Windows.Forms.CheckBox checkBox99;
-        internal System.Windows.Forms.CheckBox checkBox100;
-        internal System.Windows.Forms.CheckBox checkBox101;
-        internal System.Windows.Forms.CheckBox checkBox102;
-        internal System.Windows.Forms.CheckBox checkBox103;
-        internal System.Windows.Forms.CheckBox checkBox104;
-        internal System.Windows.Forms.CheckBox checkBox105;
-        internal System.Windows.Forms.CheckBox checkBox106;
-        internal System.Windows.Forms.CheckBox checkBox107;
-        internal System.Windows.Forms.CheckBox checkBox108;
-        internal System.Windows.Forms.CheckBox checkBox109;
-        internal System.Windows.Forms.CheckBox checkBox110;
-        internal System.Windows.Forms.CheckBox checkBox111;
-        internal System.Windows.Forms.CheckBox checkBox112;
-        internal System.Windows.Forms.CheckBox checkBox113;
-        internal System.Windows.Forms.CheckBox checkBox114;
-        internal System.Windows.Forms.CheckBox checkBox115;
         internal System.Windows.Forms.Label label57;
         internal System.Windows.Forms.Label label56;
         internal System.Windows.Forms.Label label55;
@@ -4396,30 +3594,6 @@
         internal System.Windows.Forms.Label label9;
         internal System.Windows.Forms.CheckBox checkBox11;
         internal System.Windows.Forms.TextBox textBox22;
-        internal System.Windows.Forms.Label label51;
-        internal System.Windows.Forms.Label label88;
-        internal System.Windows.Forms.NumericUpDown numericUpDown_SkillAIRECRUIT;
-        internal System.Windows.Forms.Label label89;
-        internal System.Windows.Forms.NumericUpDown numericUpDown_PrecisionAIRECRUIT;
-        internal System.Windows.Forms.ComboBox comboBox_AILevelPresetRECRUIT;
-        internal System.Windows.Forms.Label label38;
-        internal System.Windows.Forms.NumericUpDown numericUpDown_PrecisionAIVETERAN;
-        internal System.Windows.Forms.Label label39;
-        internal System.Windows.Forms.NumericUpDown numericUpDown_SkillAIVETERAN;
-        internal System.Windows.Forms.ComboBox comboBox_AILevelPresetVETERAN;
-        internal System.Windows.Forms.Label label40;
-        internal System.Windows.Forms.Label label29;
-        internal System.Windows.Forms.NumericUpDown numericUpDown_PrecisionAIMERCENARY;
-        internal System.Windows.Forms.Label label30;
-        internal System.Windows.Forms.NumericUpDown numericUpDown_SkillAIMERCENARY;
-        internal System.Windows.Forms.ComboBox comboBox_AILevelPresetMERCENARY;
-        internal System.Windows.Forms.Label label42;
-        internal System.Windows.Forms.Label label44;
-        internal System.Windows.Forms.NumericUpDown numericUpDown_PrecisionAIREGULAR;
-        internal System.Windows.Forms.Label label61;
-        internal System.Windows.Forms.NumericUpDown numericUpDown_SkillAIREGULAR;
-        internal System.Windows.Forms.ComboBox comboBox_AILevelPresetREGULAR;
-        internal System.Windows.Forms.Label label62;
         internal System.Windows.Forms.CheckBox checkBox_enableHT;
         internal System.Windows.Forms.NumericUpDown numericUpDown_PreferredObjectViewDistance;
         internal System.Windows.Forms.Label label60;
@@ -4451,7 +3625,59 @@
         internal System.Windows.Forms.RadioButton radioButton4;
         internal System.Windows.Forms.RadioButton radioButton5;
         internal System.Windows.Forms.RadioButton radioButton6;
-
+        internal System.Windows.Forms.GroupBox groupBox_Custom;
+        private System.Windows.Forms.Label label94;
+        private System.Windows.Forms.Label label95;
+        private System.Windows.Forms.Label label96;
+        private System.Windows.Forms.Label label97;
+        private System.Windows.Forms.Label label90;
+        private System.Windows.Forms.Label label91;
+        private System.Windows.Forms.Label label92;
+        private System.Windows.Forms.Label label93;
+        private System.Windows.Forms.Label label86;
+        private System.Windows.Forms.Label label88;
+        private System.Windows.Forms.Label label89;
+        private System.Windows.Forms.Label label64;
+        private System.Windows.Forms.Label label65;
+        private System.Windows.Forms.Label label66;
+        private System.Windows.Forms.Label label67;
+        private System.Windows.Forms.Label label68;
+        private System.Windows.Forms.Label label69;
+        private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.Label label62;
+        private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label_GroupIndicator;
+        private System.Windows.Forms.Label label_ReducedDamage;
+        internal System.Windows.Forms.Label label38;
+        internal System.Windows.Forms.NumericUpDown numericUpDown_PrecisionAIVETERAN;
+        internal System.Windows.Forms.Label label39;
+        internal System.Windows.Forms.NumericUpDown numericUpDown_SkillAIVETERAN;
+        internal System.Windows.Forms.ComboBox comboBox_AILevelPresetVETERAN;
+        internal System.Windows.Forms.Label label40;
+        internal System.Windows.Forms.ComboBox comboBox_MultipleSaves;
+        internal System.Windows.Forms.ComboBox comboBox_AutoReport;
+        internal System.Windows.Forms.ComboBox comboBox_MapContent;
+        internal System.Windows.Forms.ComboBox comboBox_VonID;
+        internal System.Windows.Forms.ComboBox comboBox_DeathMessage;
+        internal System.Windows.Forms.ComboBox comboBox_ScoreTable;
+        internal System.Windows.Forms.ComboBox comboBox_CameraShake;
+        internal System.Windows.Forms.ComboBox comboBox_ThirdPersonView;
+        internal System.Windows.Forms.ComboBox comboBox_VisionAid;
+        internal System.Windows.Forms.ComboBox comboBox_WeaponCrosshair;
+        internal System.Windows.Forms.ComboBox comboBox_StaminaBar;
+        internal System.Windows.Forms.ComboBox comboBox_StanceIndicator;
+        internal System.Windows.Forms.ComboBox comboBox_WeaponInfo;
+        internal System.Windows.Forms.ComboBox comboBox_Waypoints;
+        internal System.Windows.Forms.ComboBox comboBox_Commands;
+        internal System.Windows.Forms.ComboBox comboBox_DetectedMines;
+        internal System.Windows.Forms.ComboBox comboBox_EnemyTags;
+        internal System.Windows.Forms.ComboBox comboBox_FriendlyTags;
+        internal System.Windows.Forms.ComboBox comboBox_GroupIndicator;
+        internal System.Windows.Forms.ComboBox comboBox_ReducedDamage;
     }
 }
 

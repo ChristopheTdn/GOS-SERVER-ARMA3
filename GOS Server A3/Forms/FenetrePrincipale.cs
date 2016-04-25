@@ -280,34 +280,18 @@ namespace GOS_Server_A3
 
         private void radioButton7_CheckedChanged(object sender, EventArgs e)
         {
-            groupBox_recruit.Visible = radioButton7.Checked;
-            groupBox_regular.Visible = radioButton8.Checked;
-            groupBox_veteran.Visible = radioButton9.Checked;
-            groupBox_mercenary.Visible = radioButton10.Checked;
         }
 
         private void radioButton8_CheckedChanged(object sender, EventArgs e)
         {
-            groupBox_recruit.Visible = radioButton7.Checked;
-            groupBox_regular.Visible = radioButton8.Checked;
-            groupBox_veteran.Visible = radioButton9.Checked;
-            groupBox_mercenary.Visible = radioButton10.Checked;
         }
 
         private void radioButton9_CheckedChanged(object sender, EventArgs e)
         {
-            groupBox_recruit.Visible = radioButton7.Checked;
-            groupBox_regular.Visible = radioButton8.Checked;
-            groupBox_veteran.Visible = radioButton9.Checked;
-            groupBox_mercenary.Visible = radioButton10.Checked;
         }
 
         private void radioButton10_CheckedChanged(object sender, EventArgs e)
         {
-            groupBox_recruit.Visible = radioButton7.Checked;
-            groupBox_regular.Visible = radioButton8.Checked;
-            groupBox_veteran.Visible = radioButton9.Checked;
-            groupBox_mercenary.Visible = radioButton10.Checked;
         }
 
         private void checkBox16_CheckedChanged(object sender, EventArgs e)
@@ -567,60 +551,11 @@ namespace GOS_Server_A3
 
         private void comboBox_AILevelPresetRECRUIT_SelectedIndexChanged(object sender, EventArgs e)
         {
-            switch (comboBox_AILevelPresetRECRUIT.SelectedIndex)
-            {
-                case 0 :
-                    Var.fenetrePrincipale.numericUpDown_SkillAIRECRUIT.Value = 0.50M;
-                    Var.fenetrePrincipale.numericUpDown_PrecisionAIRECRUIT.Value = 0.20M;
-                    Var.fenetrePrincipale.numericUpDown_SkillAIRECRUIT.Enabled = false;
-                    Var.fenetrePrincipale.numericUpDown_PrecisionAIRECRUIT.Enabled = false;
-                    break;
-                case 1:
-                    Var.fenetrePrincipale.numericUpDown_SkillAIRECRUIT.Value = 0.70M;
-                    Var.fenetrePrincipale.numericUpDown_PrecisionAIRECRUIT.Value = 0.50M;
-                    Var.fenetrePrincipale.numericUpDown_SkillAIRECRUIT.Enabled = false;
-                    Var.fenetrePrincipale.numericUpDown_PrecisionAIRECRUIT.Enabled = false;
-                    break;
-                case 2:
-                    Var.fenetrePrincipale.numericUpDown_SkillAIRECRUIT.Value = 0.8M;
-                    Var.fenetrePrincipale.numericUpDown_PrecisionAIRECRUIT.Value = 0.70M;
-                    Var.fenetrePrincipale.numericUpDown_SkillAIRECRUIT.Enabled = false;
-                    Var.fenetrePrincipale.numericUpDown_PrecisionAIRECRUIT.Enabled = false;
-                    break;
-                case 3:
-                    Var.fenetrePrincipale.numericUpDown_SkillAIRECRUIT.Enabled = true;
-                    Var.fenetrePrincipale.numericUpDown_PrecisionAIRECRUIT.Enabled = true;
-                    break;
-            }
+
         }
 
         private void comboBox_AILevelPresetREGULAR_SelectedIndexChanged(object sender, EventArgs e)
         {
-            switch (comboBox_AILevelPresetREGULAR.SelectedIndex)
-            {
-                case 0:
-                    Var.fenetrePrincipale.numericUpDown_SkillAIREGULAR.Value = 0.50M;
-                    Var.fenetrePrincipale.numericUpDown_PrecisionAIREGULAR.Value = 0.20M;
-                    Var.fenetrePrincipale.numericUpDown_SkillAIREGULAR.Enabled = false;
-                    Var.fenetrePrincipale.numericUpDown_PrecisionAIREGULAR.Enabled = false;
-                    break;
-                case 1:
-                    Var.fenetrePrincipale.numericUpDown_SkillAIREGULAR.Value = 0.70M;
-                    Var.fenetrePrincipale.numericUpDown_PrecisionAIREGULAR.Value = 0.50M;
-                    Var.fenetrePrincipale.numericUpDown_SkillAIREGULAR.Enabled = false;
-                    Var.fenetrePrincipale.numericUpDown_PrecisionAIREGULAR.Enabled = false;
-                    break;
-                case 2:
-                    Var.fenetrePrincipale.numericUpDown_SkillAIREGULAR.Value = 0.8M;
-                    Var.fenetrePrincipale.numericUpDown_PrecisionAIREGULAR.Value = 0.70M;
-                    Var.fenetrePrincipale.numericUpDown_SkillAIREGULAR.Enabled = false;
-                    Var.fenetrePrincipale.numericUpDown_PrecisionAIREGULAR.Enabled = false;
-                    break;
-                case 3:
-                    Var.fenetrePrincipale.numericUpDown_SkillAIREGULAR.Enabled = true;
-                    Var.fenetrePrincipale.numericUpDown_PrecisionAIREGULAR.Enabled = true;
-                    break;
-            }
         }
 
         private void comboBox_AILevelPresetVETERAN_SelectedIndexChanged(object sender, EventArgs e)
@@ -654,31 +589,6 @@ namespace GOS_Server_A3
 
         private void comboBox_AILevelPresetMERCENARY_SelectedIndexChanged(object sender, EventArgs e)
         {
-            switch (comboBox_AILevelPresetMERCENARY.SelectedIndex)
-            {
-                case 0:
-                    Var.fenetrePrincipale.numericUpDown_SkillAIMERCENARY.Value = 0.50M;
-                    Var.fenetrePrincipale.numericUpDown_PrecisionAIMERCENARY.Value = 0.20M;
-                    Var.fenetrePrincipale.numericUpDown_SkillAIMERCENARY.Enabled = false;
-                    Var.fenetrePrincipale.numericUpDown_PrecisionAIMERCENARY.Enabled = false;
-                    break;
-                case 1:
-                    Var.fenetrePrincipale.numericUpDown_SkillAIMERCENARY.Value = 0.70M;
-                    Var.fenetrePrincipale.numericUpDown_PrecisionAIMERCENARY.Value = 0.50M;
-                    Var.fenetrePrincipale.numericUpDown_SkillAIMERCENARY.Enabled = false;
-                    Var.fenetrePrincipale.numericUpDown_PrecisionAIMERCENARY.Enabled = false;
-                    break;
-                case 2:
-                    Var.fenetrePrincipale.numericUpDown_SkillAIMERCENARY.Value = 0.8M;
-                    Var.fenetrePrincipale.numericUpDown_PrecisionAIMERCENARY.Value = 0.70M;
-                    Var.fenetrePrincipale.numericUpDown_SkillAIMERCENARY.Enabled = false;
-                    Var.fenetrePrincipale.numericUpDown_PrecisionAIMERCENARY.Enabled = false;
-                    break;
-                case 3:
-                    Var.fenetrePrincipale.numericUpDown_SkillAIMERCENARY.Enabled = true;
-                    Var.fenetrePrincipale.numericUpDown_PrecisionAIMERCENARY.Enabled = true;
-                    break;
-            }
         }
 
         private void button39_Click(object sender, EventArgs e)
@@ -750,8 +660,25 @@ namespace GOS_Server_A3
 
         }
 
+        private void label7_Click(object sender, EventArgs e)
+        {
 
+        }
 
+        private void label28_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox7_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void difficulte_Click(object sender, EventArgs e)
+        {
+
+        }
     }
     }
 
