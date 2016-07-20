@@ -35,6 +35,8 @@
             this.difficulte = new System.Windows.Forms.TabPage();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.groupBox_Custom = new System.Windows.Forms.GroupBox();
+            this.label_ForceDifficulty = new System.Windows.Forms.Label();
+            this.comboBox_ListeDifficultyForced = new System.Windows.Forms.ComboBox();
             this.label94 = new System.Windows.Forms.Label();
             this.comboBox_MultipleSaves = new System.Windows.Forms.ComboBox();
             this.label95 = new System.Windows.Forms.Label();
@@ -375,6 +377,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.cultureManager1 = new Infralution.Localization.CultureManager(this.components);
             this.imageList2 = new System.Windows.Forms.ImageList(this.components);
+            this.checkedListBox9 = new System.Windows.Forms.CheckedListBox();
+            this.checkBox_OpusCodec = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
             this.difficulte.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -493,6 +497,8 @@
             // 
             // groupBox_Custom
             // 
+            this.groupBox_Custom.Controls.Add(this.label_ForceDifficulty);
+            this.groupBox_Custom.Controls.Add(this.comboBox_ListeDifficultyForced);
             this.groupBox_Custom.Controls.Add(this.label94);
             this.groupBox_Custom.Controls.Add(this.comboBox_MultipleSaves);
             this.groupBox_Custom.Controls.Add(this.label95);
@@ -548,6 +554,24 @@
             resources.ApplyResources(this.groupBox_Custom, "groupBox_Custom");
             this.groupBox_Custom.Name = "groupBox_Custom";
             this.groupBox_Custom.TabStop = false;
+            // 
+            // label_ForceDifficulty
+            // 
+            resources.ApplyResources(this.label_ForceDifficulty, "label_ForceDifficulty");
+            this.label_ForceDifficulty.ForeColor = System.Drawing.Color.Red;
+            this.label_ForceDifficulty.Name = "label_ForceDifficulty";
+            // 
+            // comboBox_ListeDifficultyForced
+            // 
+            this.comboBox_ListeDifficultyForced.FormattingEnabled = true;
+            this.comboBox_ListeDifficultyForced.Items.AddRange(new object[] {
+            resources.GetString("comboBox_ListeDifficultyForced.Items"),
+            resources.GetString("comboBox_ListeDifficultyForced.Items1"),
+            resources.GetString("comboBox_ListeDifficultyForced.Items2"),
+            resources.GetString("comboBox_ListeDifficultyForced.Items3"),
+            resources.GetString("comboBox_ListeDifficultyForced.Items4")});
+            resources.ApplyResources(this.comboBox_ListeDifficultyForced, "comboBox_ListeDifficultyForced");
+            this.comboBox_ListeDifficultyForced.Name = "comboBox_ListeDifficultyForced";
             // 
             // label94
             // 
@@ -1442,14 +1466,14 @@
             // 
             // groupBox17
             // 
+            this.groupBox17.Controls.Add(this.progressBar2);
             this.groupBox17.Controls.Add(this.labelSynchroEnCoursInvisible);
             this.groupBox17.Controls.Add(this.labelVitesseSynchro);
+            this.groupBox17.Controls.Add(this.label19);
             this.groupBox17.Controls.Add(this.progressBar3);
             this.groupBox17.Controls.Add(this.label14);
             this.groupBox17.Controls.Add(this.button25);
-            this.groupBox17.Controls.Add(this.label19);
             this.groupBox17.Controls.Add(this.textBox11);
-            this.groupBox17.Controls.Add(this.progressBar2);
             this.groupBox17.Controls.Add(this.label11);
             resources.ApplyResources(this.groupBox17, "groupBox17");
             this.groupBox17.Name = "groupBox17";
@@ -2137,6 +2161,7 @@
             // 
             // groupBox9
             // 
+            this.groupBox9.Controls.Add(this.checkBox_OpusCodec);
             this.groupBox9.Controls.Add(this.label25);
             this.groupBox9.Controls.Add(this.numericUpDown2);
             this.groupBox9.Controls.Add(this.checkBox13);
@@ -3209,10 +3234,23 @@
             resources.ApplyResources(this.imageList2, "imageList2");
             this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
             // 
+            // checkedListBox9
+            // 
+            this.checkedListBox9.FormattingEnabled = true;
+            resources.ApplyResources(this.checkedListBox9, "checkedListBox9");
+            this.checkedListBox9.Name = "checkedListBox9";
+            // 
+            // checkBox_OpusCodec
+            // 
+            resources.ApplyResources(this.checkBox_OpusCodec, "checkBox_OpusCodec");
+            this.checkBox_OpusCodec.Name = "checkBox_OpusCodec";
+            this.checkBox_OpusCodec.UseVisualStyleBackColor = true;
+            // 
             // FenetrePrincipale
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.checkedListBox9);
             this.Controls.Add(this.groupBox20);
             this.Controls.Add(this.checkBox19);
             this.Controls.Add(this.comboBox4);
@@ -3680,6 +3718,10 @@
         internal System.Windows.Forms.ComboBox comboBox_FriendlyTags;
         internal System.Windows.Forms.ComboBox comboBox_GroupIndicator;
         internal System.Windows.Forms.ComboBox comboBox_ReducedDamage;
+        private System.Windows.Forms.CheckedListBox checkedListBox9;
+        private System.Windows.Forms.Label label_ForceDifficulty;
+        internal System.Windows.Forms.ComboBox comboBox_ListeDifficultyForced;
+        internal System.Windows.Forms.CheckBox checkBox_OpusCodec;
     }
 }
 

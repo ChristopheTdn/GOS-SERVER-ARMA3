@@ -505,7 +505,7 @@ namespace GOS_Server_A3.Classes
             // creation server.cfg
             FileStream fs;
             string text;
-            
+
             string repertoireDeTravail = Var.fenetrePrincipale.textBox18.Text + @"\@GOSServer\" + profil;
             fs = File.Create(repertoireDeTravail + @"\server.cfg");
             fs.Close();
@@ -556,6 +556,12 @@ namespace GOS_Server_A3.Classes
             if (Var.fenetrePrincipale.checkBox13.Checked)
             {
                 text += "// VON" + Environment.NewLine;
+                if (Var.fenetrePrincipale.checkBox_OpusCodec.Checked)
+                {
+                    text += "vonCodec = 1; // 1 enables new OPUS codec" + Environment.NewLine;
+                } else {
+                    text += "vonCodec = 0; // 1 enables new OPUS codec" + Environment.NewLine;
+                };
                 text += "disableVoN = 0;" + Environment.NewLine;
                 text += "vonCodecQuality = " + Var.fenetrePrincipale.numericUpDown2.Value.ToString() + @";" + Environment.NewLine;
             }
@@ -595,7 +601,12 @@ namespace GOS_Server_A3.Classes
             if (Var.fenetrePrincipale.textBox35.Text != "") { text += @"onUnsignedData = """ + Var.fenetrePrincipale.textBox35.Text + @""";" + Environment.NewLine; };
             if (Var.fenetrePrincipale.textBox36.Text != "") { text += @"regularCheck = """ + Var.fenetrePrincipale.textBox36.Text + @""";" + Environment.NewLine; };
             text += Environment.NewLine;
-            // Missions
+            if (Var.fenetrePrincipale.comboBox_ListeDifficultyForced.Text != "")
+            {
+                text += @"// Force Difficulty " + Environment.NewLine;
+                text += @"forcedDifficulty = """ + Var.fenetrePrincipale.comboBox_ListeDifficultyForced.Text + @""";" + Environment.NewLine;
+            };
+                // Missions
             text += "// Missions" + Environment.NewLine;
             text += "class Missions" + Environment.NewLine;
             text += "   {" + Environment.NewLine;
@@ -659,10 +670,10 @@ namespace GOS_Server_A3.Classes
             text += "// fichier Arma3Profile" + Environment.NewLine;
             text += "// *************************" + Environment.NewLine;
             text += "" + Environment.NewLine;
-            text += @"difficulty = ""Custom"";" + Environment.NewLine;
+            text += @"difficulty = ""custom"";" + Environment.NewLine;
             text += "class DifficultyPresets" + Environment.NewLine;
             text += " {" + Environment.NewLine;
-            text += @" defaultPreset = ""Custom"";" + Environment.NewLine;
+            text += @" defaultPreset = ""custom"";" + Environment.NewLine;
             text += "  myArmorCoef = 1.5;" + Environment.NewLine;
             text += "  groupArmorCoef = 1.5;" + Environment.NewLine;
             text += "  recoilCoef = 1;" + Environment.NewLine;
