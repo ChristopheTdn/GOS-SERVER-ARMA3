@@ -100,8 +100,9 @@ namespace GOS_Server_A3.Classes
         }
         static public void effaceTousItemsOnglets()
         {
-            Var.fenetrePrincipale.comboBox2.Items.Clear();
-            Var.fenetrePrincipale.comboBox2.Items.Add("");
+            Var.fenetrePrincipale.comboBox_ListeApparence.Items.Clear();
+            Var.fenetrePrincipale.comboBox_ListeApparence.Items.Add("");
+            Var.fenetrePrincipale.checkBox_ToutesApparences.Checked = false;
             Var.fenetrePrincipale.radioButton20.Enabled = false;
             Var.fenetrePrincipale.radioButton20.Checked = false;
             Var.fenetrePrincipale.radioButton21.Enabled = false;
@@ -134,7 +135,7 @@ namespace GOS_Server_A3.Classes
                 if ((ligne.IndexOf(@"\@GOS\@TEMPLATE\@GOSSkin_") != -1) && (ligne.IndexOf(@"\@GOS\@TEMPLATE\@GOSUnits_Cfg") == -1))
                 {
                     string addons = ligne.Replace(Var.fenetrePrincipale.textBox18.Text + @"\@GOS\@TEMPLATE\@GOSSkin_", "");
-                    Var.fenetrePrincipale.comboBox2.Items.Add(addons.Replace(@"\addons", ""));
+                    Var.fenetrePrincipale.comboBox_ListeApparence.Items.Add(addons.Replace(@"\addons", ""));
                 }
                 else
                     if (ligne.IndexOf(@"\@GOS\@TEMPLATE\@GOSUnit_Helmets") != -1)
@@ -262,11 +263,11 @@ namespace GOS_Server_A3.Classes
                         if (repertoireAChercher.IndexOf(@"@GOS\@TEMPLATE\@GOSSkin_") != -1)
                         {
                             int indexApparence = 0;
-                            foreach (string apparencePossible in Var.fenetrePrincipale.comboBox2.Items)
+                            foreach (string apparencePossible in Var.fenetrePrincipale.comboBox_ListeApparence.Items)
                             {
                                 if (@"@GOS\@TEMPLATE\@GOSSkin_" + apparencePossible == repertoireAChercher)
                                 {
-                                    Var.fenetrePrincipale.comboBox2.SelectedIndex = indexApparence;
+                                    Var.fenetrePrincipale.comboBox_ListeApparence.SelectedIndex = indexApparence;
                                 }
                                 indexApparence++;
                             }
@@ -449,6 +450,8 @@ namespace GOS_Server_A3.Classes
                 if (customCMDLine != "") { Var.fenetrePrincipale.checkBox11.Checked = true; Var.fenetrePrincipale.textBox22.Text = customCMDLine; } else { Var.fenetrePrincipale.checkBox11.Checked = false; Var.fenetrePrincipale.textBox22.Text = "";  }
                 fichierProfilXML.ReadToFollowing("enableHT");
                 if (fichierProfilXML.ReadString() == "true") { Var.fenetrePrincipale.checkBox_enableHT.Checked = true; }
+                fichierProfilXML.ReadToFollowing("toutesApparences");
+                if (fichierProfilXML.ReadString() == "true") { Var.fenetrePrincipale.checkBox_ToutesApparences.Checked = true; }            
             fichierProfilXML.Close();
         }
         static public void AjouteComboNomProfil(int index, string nomProfil)

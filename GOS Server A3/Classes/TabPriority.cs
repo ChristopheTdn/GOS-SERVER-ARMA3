@@ -46,7 +46,7 @@ namespace GOS_Server_A3.Classes
             {
                 if (!Var.fenetrePrincipale.checkedListBox7.GetItemChecked(Var.fenetrePrincipale.checkedListBox7.FindString("@GOSUnits_Cfg")))
                 {
-                    Var.fenetrePrincipale.comboBox2.SelectedIndex = 0;
+                    Var.fenetrePrincipale.comboBox_ListeApparence.SelectedIndex = 0;
                     Var.fenetrePrincipale.radioButton20.Checked = false;
                     Var.fenetrePrincipale.radioButton21.Checked = false;                    
                 }
@@ -66,6 +66,14 @@ namespace GOS_Server_A3.Classes
             {
                 Var.fenetrePrincipale.ctrlListModPrioritaire.Items.Add(ligne);
             }
+            
+                       if (Var.fenetrePrincipale.checkBox_ToutesApparences.Checked)
+                        {
+                            for (int x = 1; x <= Var.fenetrePrincipale.comboBox_ListeApparence.Items.Count - 1; x++)
+                            {
+                    Var.fenetrePrincipale.ctrlListModPrioritaire.Items.Add(@"@GOS\@TEMPLATE\@GOSSkin_" + Var.fenetrePrincipale.comboBox_ListeApparence.Items[x]);
+                            }
+                        }
 
         }
         static private List<string> compareListeModsValidesEtListePrioritaire(List<string> listModsValide, List<string> listModsPrioritaire)
@@ -101,9 +109,10 @@ namespace GOS_Server_A3.Classes
                 listeModsValide.Add(ligne);
                 if (ligne == @"@GOS\@TEMPLATE\@GOSUnits_Cfg")
                 {
-                    if (Var.fenetrePrincipale.comboBox2.Text != "")
+                    if (Var.fenetrePrincipale.comboBox_ListeApparence.Text != "")
                     {
-                        listeModsValide.Add(@"@GOS\@TEMPLATE\@GOSSkin_" + Var.fenetrePrincipale.comboBox2.Text);
+                            listeModsValide.Add(@"@GOS\@TEMPLATE\@GOSSkin_" + Var.fenetrePrincipale.comboBox_ListeApparence.Text);
+                        
                     }
                 }
             }

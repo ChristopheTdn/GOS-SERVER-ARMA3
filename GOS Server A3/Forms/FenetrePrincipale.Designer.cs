@@ -244,6 +244,7 @@
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.checkBox_OpusCodec = new System.Windows.Forms.CheckBox();
             this.label25 = new System.Windows.Forms.Label();
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
             this.checkBox13 = new System.Windows.Forms.CheckBox();
@@ -319,8 +320,9 @@
             this.TabMODS = new System.Windows.Forms.TabPage();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.TEMPLATE = new System.Windows.Forms.TabPage();
-            this.groupBox14 = new System.Windows.Forms.GroupBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.checkBox_ToutesApparences = new System.Windows.Forms.CheckBox();
+            this.groupBox_Apparence = new System.Windows.Forms.GroupBox();
+            this.comboBox_ListeApparence = new System.Windows.Forms.ComboBox();
             this.groupBox13 = new System.Windows.Forms.GroupBox();
             this.radioButton21 = new System.Windows.Forms.RadioButton();
             this.radioButton20 = new System.Windows.Forms.RadioButton();
@@ -378,7 +380,6 @@
             this.cultureManager1 = new Infralution.Localization.CultureManager(this.components);
             this.imageList2 = new System.Windows.Forms.ImageList(this.components);
             this.checkedListBox9 = new System.Windows.Forms.CheckedListBox();
-            this.checkBox_OpusCodec = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
             this.difficulte.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -436,7 +437,7 @@
             this.TabMODS.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.TEMPLATE.SuspendLayout();
-            this.groupBox14.SuspendLayout();
+            this.groupBox_Apparence.SuspendLayout();
             this.groupBox13.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.FRAMEWORK.SuspendLayout();
@@ -2169,6 +2170,12 @@
             this.groupBox9.Name = "groupBox9";
             this.groupBox9.TabStop = false;
             // 
+            // checkBox_OpusCodec
+            // 
+            resources.ApplyResources(this.checkBox_OpusCodec, "checkBox_OpusCodec");
+            this.checkBox_OpusCodec.Name = "checkBox_OpusCodec";
+            this.checkBox_OpusCodec.UseVisualStyleBackColor = true;
+            // 
             // label25
             // 
             resources.ApplyResources(this.label25, "label25");
@@ -2725,7 +2732,7 @@
             this.TEMPLATE.BackColor = System.Drawing.Color.Gainsboro;
             resources.ApplyResources(this.TEMPLATE, "TEMPLATE");
             this.TEMPLATE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TEMPLATE.Controls.Add(this.groupBox14);
+            this.TEMPLATE.Controls.Add(this.groupBox_Apparence);
             this.TEMPLATE.Controls.Add(this.groupBox13);
             this.TEMPLATE.Controls.Add(this.pictureBox1);
             this.TEMPLATE.Controls.Add(this.button13);
@@ -2733,20 +2740,28 @@
             this.TEMPLATE.Controls.Add(this.checkedListBox7);
             this.TEMPLATE.Name = "TEMPLATE";
             // 
-            // groupBox14
+            // checkBox_ToutesApparences
             // 
-            this.groupBox14.Controls.Add(this.comboBox2);
-            this.groupBox14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            resources.ApplyResources(this.groupBox14, "groupBox14");
-            this.groupBox14.Name = "groupBox14";
-            this.groupBox14.TabStop = false;
+            resources.ApplyResources(this.checkBox_ToutesApparences, "checkBox_ToutesApparences");
+            this.checkBox_ToutesApparences.Name = "checkBox_ToutesApparences";
+            this.checkBox_ToutesApparences.UseVisualStyleBackColor = true;
+            this.checkBox_ToutesApparences.CheckedChanged += new System.EventHandler(this.checkBox_ToutesApparences_CheckedChanged);
             // 
-            // comboBox2
+            // groupBox_Apparence
             // 
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.comboBox2, "comboBox2");
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Name = "comboBox2";
+            this.groupBox_Apparence.Controls.Add(this.checkBox_ToutesApparences);
+            this.groupBox_Apparence.Controls.Add(this.comboBox_ListeApparence);
+            this.groupBox_Apparence.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            resources.ApplyResources(this.groupBox_Apparence, "groupBox_Apparence");
+            this.groupBox_Apparence.Name = "groupBox_Apparence";
+            this.groupBox_Apparence.TabStop = false;
+            // 
+            // comboBox_ListeApparence
+            // 
+            this.comboBox_ListeApparence.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.comboBox_ListeApparence, "comboBox_ListeApparence");
+            this.comboBox_ListeApparence.FormattingEnabled = true;
+            this.comboBox_ListeApparence.Name = "comboBox_ListeApparence";
             // 
             // groupBox13
             // 
@@ -3240,12 +3255,6 @@
             resources.ApplyResources(this.checkedListBox9, "checkedListBox9");
             this.checkedListBox9.Name = "checkedListBox9";
             // 
-            // checkBox_OpusCodec
-            // 
-            resources.ApplyResources(this.checkBox_OpusCodec, "checkBox_OpusCodec");
-            this.checkBox_OpusCodec.Name = "checkBox_OpusCodec";
-            this.checkBox_OpusCodec.UseVisualStyleBackColor = true;
-            // 
             // FenetrePrincipale
             // 
             resources.ApplyResources(this, "$this");
@@ -3341,7 +3350,8 @@
             this.TabMODS.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.TEMPLATE.ResumeLayout(false);
-            this.groupBox14.ResumeLayout(false);
+            this.groupBox_Apparence.ResumeLayout(false);
+            this.groupBox_Apparence.PerformLayout();
             this.groupBox13.ResumeLayout(false);
             this.groupBox13.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -3508,8 +3518,8 @@
         private System.Windows.Forms.TabPage TabMODS;
         internal System.Windows.Forms.TabControl tabControl1;
         internal System.Windows.Forms.TabPage TEMPLATE;
-        internal System.Windows.Forms.GroupBox groupBox14;
-        internal System.Windows.Forms.ComboBox comboBox2;
+        internal System.Windows.Forms.GroupBox groupBox_Apparence;
+        internal System.Windows.Forms.ComboBox comboBox_ListeApparence;
         internal System.Windows.Forms.GroupBox groupBox13;
         internal System.Windows.Forms.RadioButton radioButton21;
         internal System.Windows.Forms.RadioButton radioButton20;
@@ -3722,6 +3732,7 @@
         private System.Windows.Forms.Label label_ForceDifficulty;
         internal System.Windows.Forms.ComboBox comboBox_ListeDifficultyForced;
         internal System.Windows.Forms.CheckBox checkBox_OpusCodec;
+        internal System.Windows.Forms.CheckBox checkBox_ToutesApparences;
     }
 }
 

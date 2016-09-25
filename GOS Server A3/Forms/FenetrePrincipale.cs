@@ -680,6 +680,10 @@ namespace GOS_Server_A3
 
         }
 
+        private void checkBox_ToutesApparences_CheckedChanged(object sender, EventArgs e)
+        {
+            comboBox_ListeApparence.Enabled = !checkBox_ToutesApparences.Checked;
+        }
     }
 }
 

@@ -134,17 +134,19 @@ namespace GOS_Server_A3.Classes
             //TEMPLATE
             FichierProfilXML.WriteStartElement("TEMPLATE");
             if (Var.fenetrePrincipale.checkedListBox7.CheckedItems.Count != 0)
-            {
+            {               
                 for (int x = 0; x <= Var.fenetrePrincipale.checkedListBox7.CheckedItems.Count - 1; x++)
                 {
                     FichierProfilXML.WriteElementString("MODS", @"@GOS\@TEMPLATE\" + Var.fenetrePrincipale.checkedListBox7.CheckedItems[x].ToString());
                 }
                 // ecrire skin
-                if (Var.fenetrePrincipale.comboBox2.Text != "")
-                {
-                    FichierProfilXML.WriteElementString("MODS", @"@GOS\@TEMPLATE\@GOSSkin_" + Var.fenetrePrincipale.comboBox2.Text);
+                if (Var.fenetrePrincipale.comboBox_ListeApparence.Text != "")
+                {                    
+                        FichierProfilXML.WriteElementString("MODS", @"@GOS\@TEMPLATE\@GOSSkin_" + Var.fenetrePrincipale.comboBox_ListeApparence.Text);
+                    
 
                 }
+
             }
             // ecrire casque perso
 
@@ -183,7 +185,11 @@ namespace GOS_Server_A3.Classes
             if (Var.fenetrePrincipale.checkBox24.Checked) { FichierProfilXML.WriteElementString("adminmode", "true"); } else { FichierProfilXML.WriteElementString("adminmode", ""); }
             if (Var.fenetrePrincipale.checkBox10.Checked) { FichierProfilXML.WriteElementString("nologs", "true"); } else { FichierProfilXML.WriteElementString("nologs", ""); }
             if (Var.fenetrePrincipale.checkBox11.Checked) { FichierProfilXML.WriteElementString("customCMDLine", Var.fenetrePrincipale.textBox22.Text); } else { FichierProfilXML.WriteElementString("customCMDLine", ""); }
-            if (Var.fenetrePrincipale.checkBox_enableHT.Checked) { FichierProfilXML.WriteElementString("enableHT", "true"); } else { FichierProfilXML.WriteElementString("enableHT", ""); }       
+            if (Var.fenetrePrincipale.checkBox_enableHT.Checked) { FichierProfilXML.WriteElementString("enableHT", "true"); } else { FichierProfilXML.WriteElementString("enableHT", ""); }
+
+            // ecrire Toute apparence
+            if (Var.fenetrePrincipale.checkBox_ToutesApparences.Checked) { FichierProfilXML.WriteElementString("toutesApparences", "true"); } else { FichierProfilXML.WriteElementString("touteApparence", "false"); }
+            
             FichierProfilXML.WriteEndElement();
             FichierProfilXML.WriteEndElement();
             FichierProfilXML.Flush(); //vide le buffer
