@@ -59,6 +59,17 @@ namespace GOS_Server_A3.Classes
             Var.fenetrePrincipale.label77.Text = "???";
             Core.synchroTailleRsync();
 
+            // Determine presence ARMA 3 64 bit
+            if (File.Exists(Var.fenetrePrincipale.textBox18.Text + @"\arma3server_x64.exe"))
+            {
+                Var.fenetrePrincipale.checkBox_Arma364bit.Enabled = true;
+            }
+            else
+            {
+                Var.fenetrePrincipale.checkBox_Arma364bit.Enabled = false;
+                Var.fenetrePrincipale.checkBox_Arma364bit.Enabled = false;
+            }
+
             // Bouton Lancer Serveur
             if (!System.IO.File.Exists(Var.fenetrePrincipale.textBox18.Text + @"\arma3server.exe"))
             {
@@ -404,6 +415,7 @@ namespace GOS_Server_A3.Classes
             Var.fenetrePrincipale.checkBox24.Checked = false;
             Var.fenetrePrincipale.checkBox_enableHT.Checked = false;
             Var.fenetrePrincipale.textBox22.Text = "";
+            Var.fenetrePrincipale.checkBox_Arma364bit.Checked = false;
 
         }
         static public void genereTabParam(string profil)
@@ -451,7 +463,10 @@ namespace GOS_Server_A3.Classes
                 fichierProfilXML.ReadToFollowing("enableHT");
                 if (fichierProfilXML.ReadString() == "true") { Var.fenetrePrincipale.checkBox_enableHT.Checked = true; }
                 fichierProfilXML.ReadToFollowing("toutesApparences");
-                if (fichierProfilXML.ReadString() == "true") { Var.fenetrePrincipale.checkBox_ToutesApparences.Checked = true; }            
+                if (fichierProfilXML.ReadString() == "true") { Var.fenetrePrincipale.checkBox_ToutesApparences.Checked = true; }
+                fichierProfilXML.ReadToFollowing("arma364bit");
+                if (fichierProfilXML.ReadString() == "true") { Var.fenetrePrincipale.checkBox_Arma364bit.Checked = true; }
+
             fichierProfilXML.Close();
         }
         static public void AjouteComboNomProfil(int index, string nomProfil)

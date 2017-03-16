@@ -320,8 +320,8 @@
             this.TabMODS = new System.Windows.Forms.TabPage();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.TEMPLATE = new System.Windows.Forms.TabPage();
-            this.checkBox_ToutesApparences = new System.Windows.Forms.CheckBox();
             this.groupBox_Apparence = new System.Windows.Forms.GroupBox();
+            this.checkBox_ToutesApparences = new System.Windows.Forms.CheckBox();
             this.comboBox_ListeApparence = new System.Windows.Forms.ComboBox();
             this.groupBox13 = new System.Windows.Forms.GroupBox();
             this.radioButton21 = new System.Windows.Forms.RadioButton();
@@ -380,6 +380,8 @@
             this.cultureManager1 = new Infralution.Localization.CultureManager(this.components);
             this.imageList2 = new System.Windows.Forms.ImageList(this.components);
             this.checkedListBox9 = new System.Windows.Forms.CheckedListBox();
+            this.groupBox_Arma3 = new System.Windows.Forms.GroupBox();
+            this.checkBox_Arma364bit = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
             this.difficulte.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -459,6 +461,7 @@
             this.groupBox8.SuspendLayout();
             this.groupBox7.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.groupBox_Arma3.SuspendLayout();
             this.SuspendLayout();
             // 
             // numericUpDown4
@@ -2102,6 +2105,7 @@
             // Serveur_Detail
             // 
             this.Serveur_Detail.BackColor = System.Drawing.Color.Gainsboro;
+            this.Serveur_Detail.Controls.Add(this.groupBox_Arma3);
             this.Serveur_Detail.Controls.Add(this.groupBox19);
             this.Serveur_Detail.Controls.Add(this.groupBox11);
             this.Serveur_Detail.Controls.Add(this.groupBox9);
@@ -2740,13 +2744,6 @@
             this.TEMPLATE.Controls.Add(this.checkedListBox7);
             this.TEMPLATE.Name = "TEMPLATE";
             // 
-            // checkBox_ToutesApparences
-            // 
-            resources.ApplyResources(this.checkBox_ToutesApparences, "checkBox_ToutesApparences");
-            this.checkBox_ToutesApparences.Name = "checkBox_ToutesApparences";
-            this.checkBox_ToutesApparences.UseVisualStyleBackColor = true;
-            this.checkBox_ToutesApparences.CheckedChanged += new System.EventHandler(this.checkBox_ToutesApparences_CheckedChanged);
-            // 
             // groupBox_Apparence
             // 
             this.groupBox_Apparence.Controls.Add(this.checkBox_ToutesApparences);
@@ -2755,6 +2752,13 @@
             resources.ApplyResources(this.groupBox_Apparence, "groupBox_Apparence");
             this.groupBox_Apparence.Name = "groupBox_Apparence";
             this.groupBox_Apparence.TabStop = false;
+            // 
+            // checkBox_ToutesApparences
+            // 
+            resources.ApplyResources(this.checkBox_ToutesApparences, "checkBox_ToutesApparences");
+            this.checkBox_ToutesApparences.Name = "checkBox_ToutesApparences";
+            this.checkBox_ToutesApparences.UseVisualStyleBackColor = true;
+            this.checkBox_ToutesApparences.CheckedChanged += new System.EventHandler(this.checkBox_ToutesApparences_CheckedChanged);
             // 
             // comboBox_ListeApparence
             // 
@@ -3255,6 +3259,19 @@
             resources.ApplyResources(this.checkedListBox9, "checkedListBox9");
             this.checkedListBox9.Name = "checkedListBox9";
             // 
+            // groupBox_Arma3
+            // 
+            this.groupBox_Arma3.Controls.Add(this.checkBox_Arma364bit);
+            resources.ApplyResources(this.groupBox_Arma3, "groupBox_Arma3");
+            this.groupBox_Arma3.Name = "groupBox_Arma3";
+            this.groupBox_Arma3.TabStop = false;
+            // 
+            // checkBox_Arma364bit
+            // 
+            resources.ApplyResources(this.checkBox_Arma364bit, "checkBox_Arma364bit");
+            this.checkBox_Arma364bit.Name = "checkBox_Arma364bit";
+            this.checkBox_Arma364bit.UseVisualStyleBackColor = true;
+            // 
             // FenetrePrincipale
             // 
             resources.ApplyResources(this, "$this");
@@ -3377,6 +3394,8 @@
             this.groupBox7.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.groupBox_Arma3.ResumeLayout(false);
+            this.groupBox_Arma3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3733,6 +3752,8 @@
         internal System.Windows.Forms.ComboBox comboBox_ListeDifficultyForced;
         internal System.Windows.Forms.CheckBox checkBox_OpusCodec;
         internal System.Windows.Forms.CheckBox checkBox_ToutesApparences;
+        internal System.Windows.Forms.GroupBox groupBox_Arma3;
+        internal System.Windows.Forms.CheckBox checkBox_Arma364bit;
     }
 }
 

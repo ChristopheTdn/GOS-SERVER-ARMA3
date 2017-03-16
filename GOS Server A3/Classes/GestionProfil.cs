@@ -189,7 +189,10 @@ namespace GOS_Server_A3.Classes
 
             // ecrire Toute apparence
             if (Var.fenetrePrincipale.checkBox_ToutesApparences.Checked) { FichierProfilXML.WriteElementString("toutesApparences", "true"); } else { FichierProfilXML.WriteElementString("touteApparence", "false"); }
-            
+
+            // Arma 3 64 bit
+            if (Var.fenetrePrincipale.checkBox_Arma364bit.Checked) { FichierProfilXML.WriteElementString("arma364bit", "true"); } else { FichierProfilXML.WriteElementString("arma364bit", ""); }
+
             FichierProfilXML.WriteEndElement();
             FichierProfilXML.WriteEndElement();
             FichierProfilXML.Flush(); //vide le buffer
@@ -438,6 +441,13 @@ namespace GOS_Server_A3.Classes
             text += @"Goto GOS" + Environment.NewLine;
             System.IO.File.WriteAllText(repertoireDeTravail + @"\server.bat", text);
         }
+        static public string arma3exe()
+        {
+            if (Var.fenetrePrincipale.checkBox_Arma364bit.Checked)
+            { return "arma3server_x64.exe"; }
+            else
+            { return "arma3server.exe"; }
+        }
         static public string GenereAffinityArgument()
         {
             string argument = "";
@@ -445,7 +455,7 @@ namespace GOS_Server_A3.Classes
             {
                 argument += @" /affinity " + Var.fenetrePrincipale.textBox_ValueAffinity.Text + " ";
             }
-            argument += @" """ + Var.fenetrePrincipale.textBox18.Text + @"\arma3server.exe"" ";
+            argument += @" """ + Var.fenetrePrincipale.textBox18.Text + @"\"+ arma3exe()+@""" ";
             return argument;
         }
         static public string GenereLigneArgument(string sys)
@@ -748,7 +758,7 @@ static public void GenereHCinitBat(string profil)
             text += Environment.NewLine;
             text += System.IO.Directory.GetDirectoryRoot(repertoireDeTravail).Replace(@"\", "") + Environment.NewLine;
             text += @"CD " + Var.fenetrePrincipale.textBox18.Text + Environment.NewLine;
-            text += @"c:\Windows\System32\cmd.exe /C START ""arma3server"" /wait " + @" """ + Var.fenetrePrincipale.textBox18.Text + @"\arma3server.exe"" ""-client"" ""-connect=127.0.0.1"" ""-port=" + Var.fenetrePrincipale.textBox15.Text + @""" ""-password=" + Var.fenetrePrincipale.textBox13.Text + @""" ""-profiles=" + cheminCfgServer + @"profile"" " + GenereLigneArgument("win") + Environment.NewLine;
+            text += @"c:\Windows\System32\cmd.exe /C START ""arma3server"" /wait " + @" """ + Var.fenetrePrincipale.textBox18.Text + @"\"+arma3exe()+@""" ""-client"" ""-connect=127.0.0.1"" ""-port=" + Var.fenetrePrincipale.textBox15.Text + @""" ""-password=" + Var.fenetrePrincipale.textBox13.Text + @""" ""-profiles=" + cheminCfgServer + @"profile"" " + GenereLigneArgument("win") + Environment.NewLine;
             text += @"Echo + Arret serveur !!!" + Environment.NewLine;
             text += @"Echo + Redemarrage Serveur. Patientez SVP !" + Environment.NewLine;
             text += @"Echo .." + Environment.NewLine;
