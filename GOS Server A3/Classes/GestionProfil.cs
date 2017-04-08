@@ -745,6 +745,7 @@ static public void GenereHCinitBat(string profil)
             fs.Close();
             string cheminCfgServer = @"@GOSServer\" + (Var.fenetrePrincipale.comboBox4.SelectedItem as ComboboxItem).Value.ToString() + @"\";
             string text = "";
+            string arguments = GenereLigneArgument("win").Replace(@"@ocap;", "");
             text += @":GOS" + Environment.NewLine;
             text += @"Echo  off" + Environment.NewLine;
             text += @"Cls" + Environment.NewLine;
@@ -754,11 +755,11 @@ static public void GenereHCinitBat(string profil)
             text += @"Echo     +------------------------+" + Environment.NewLine;
             text += @"Echo   Profil : [" + Var.fenetrePrincipale.comboBox4.Text + "] en cours d'execution." + Environment.NewLine;
             text += @"Echo   Port : "+ Var.fenetrePrincipale.textBox15.Text + Environment.NewLine;
-            text += @"Echo   Mods : " + GenereLigneArgument("win") + Environment.NewLine;
+            text += @"Echo   Mods : " + arguments + Environment.NewLine;
             text += Environment.NewLine;
             text += System.IO.Directory.GetDirectoryRoot(repertoireDeTravail).Replace(@"\", "") + Environment.NewLine;
-            text += @"CD " + Var.fenetrePrincipale.textBox18.Text + Environment.NewLine;
-            text += @"c:\Windows\System32\cmd.exe /C START ""arma3server"" /wait " + @" """ + Var.fenetrePrincipale.textBox18.Text + @"\"+arma3exe()+@""" ""-client"" ""-connect=127.0.0.1"" ""-port=" + Var.fenetrePrincipale.textBox15.Text + @""" ""-password=" + Var.fenetrePrincipale.textBox13.Text + @""" ""-profiles=" + cheminCfgServer + @"profile"" " + GenereLigneArgument("win") + Environment.NewLine;
+            text += @"CD " + Var.fenetrePrincipale.textBox18.Text + Environment.NewLine;            
+            text += @"c:\Windows\System32\cmd.exe /C START ""arma3server"" /wait " + @" """ + Var.fenetrePrincipale.textBox18.Text + @"\"+arma3exe()+@""" ""-client"" ""-connect=127.0.0.1"" ""-port=" + Var.fenetrePrincipale.textBox15.Text + @""" ""-password=" + Var.fenetrePrincipale.textBox13.Text + @""" ""-profiles=" + cheminCfgServer + @"profile"" " + arguments + Environment.NewLine;
             text += @"Echo + Arret serveur !!!" + Environment.NewLine;
             text += @"Echo + Redemarrage Serveur. Patientez SVP !" + Environment.NewLine;
             text += @"Echo .." + Environment.NewLine;
